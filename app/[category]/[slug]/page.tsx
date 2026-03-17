@@ -1,5 +1,8 @@
+import fs from 'fs';
+import path from 'path';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { CATEGORIES, CategorySlug, SITE_NAME, SITE_URL } from '@/lib/constants';
 import { getArticles, getArticleBySlug, getRelatedArticles } from '@/lib/articles';
 import { getProductBySlug } from '@/lib/products';
@@ -112,6 +115,20 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         <div className="mt-4">
           <AuthorBox variant="compact" />
         </div>
+
+        {/* Hero Image */}
+        {fs.existsSync(path.join(process.cwd(), 'public', `/images/articles/${article.slug}.webp`)) && (
+          <div className="mt-6 relative aspect-video rounded-lg overflow-hidden">
+            <Image
+              src={`/images/articles/${article.slug}.webp`}
+              alt={article.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              priority
+            />
+          </div>
+        )}
 
         {/* Share */}
         <ShareButtons title={article.title} slug={article.slug} category={article.category} />

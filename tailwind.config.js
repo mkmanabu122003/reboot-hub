@@ -32,6 +32,72 @@ module.exports = {
         article: '720px',
         sidebar: '280px',
       },
+      typography: () => ({
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': 'var(--color-text)',
+            '--tw-prose-headings': 'var(--color-text)',
+            '--tw-prose-links': 'var(--color-secondary)',
+            '--tw-prose-bold': 'var(--color-text)',
+            '--tw-prose-bullets': 'var(--color-secondary)',
+            '--tw-prose-counters': 'var(--color-secondary)',
+            '--tw-prose-code': 'var(--color-text)',
+            '--tw-prose-pre-bg': 'var(--color-bg-secondary)',
+            '--tw-prose-quote-borders': 'var(--color-accent)',
+            lineHeight: '1.9',
+            fontSize: '16px',
+            h2: {
+              borderBottom: 'none',
+              borderLeft: '3px solid var(--color-primary)',
+              paddingLeft: '0.75rem',
+              marginTop: '2.5em',
+              marginBottom: '1em',
+            },
+            h3: {
+              marginTop: '2em',
+              marginBottom: '0.75em',
+            },
+            blockquote: {
+              fontStyle: 'normal',
+              borderLeftColor: 'var(--color-accent)',
+              backgroundColor: 'var(--color-bg-secondary)',
+              padding: '1rem 1.25rem',
+              borderRadius: '0 0.5rem 0.5rem 0',
+            },
+            'blockquote p:first-of-type::before': { content: 'none' },
+            'blockquote p:last-of-type::after': { content: 'none' },
+            a: {
+              color: 'var(--color-secondary)',
+              textDecoration: 'underline',
+              textUnderlineOffset: '2px',
+              '&:hover': {
+                color: 'var(--color-primary)',
+              },
+            },
+            code: {
+              backgroundColor: 'var(--color-bg-secondary)',
+              padding: '0.2em 0.4em',
+              borderRadius: '0.25rem',
+              fontWeight: '400',
+            },
+            'code::before': { content: 'none' },
+            'code::after': { content: 'none' },
+            pre: {
+              backgroundColor: 'var(--color-bg-secondary)',
+              borderRadius: '0.5rem',
+            },
+            img: {
+              borderRadius: '0.5rem',
+            },
+            'ul > li::marker': {
+              color: 'var(--color-secondary)',
+            },
+            'ol > li::marker': {
+              color: 'var(--color-secondary)',
+            },
+          },
+        },
+      }),
       fontSize: {
         'h1': ['32px', { lineHeight: '1.3', fontWeight: '700' }],
         'h1-mobile': ['24px', { lineHeight: '1.3', fontWeight: '700' }],
@@ -45,5 +111,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };

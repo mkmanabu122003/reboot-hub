@@ -7,12 +7,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-images": "npx tsx scripts/generate-images.ts",
+    "generate-images:all": "npx tsx scripts/generate-images.ts --all",
+    "generate-images:dry": "npx tsx scripts/generate-images.ts --all --dry-run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "gray-matter": "^4.0.3",
     "next": "^14.2.35",
     "react": "^18.3.1",
@@ -29,13 +33,18 @@
     "unified": "^11.0.5"
   },
   "devDependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
+    "@types/sharp": "^0.31.1",
     "autoprefixer": "^10.4.27",
+    "dotenv": "^17.3.1",
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.1.7",
     "postcss": "^8.5.8",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.19",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }

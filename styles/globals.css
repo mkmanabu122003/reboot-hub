@@ -44,3 +44,31 @@
     @apply text-code font-mono;
   }
 }
+
+@layer components {
+  .prose > p:first-of-type {
+    font-size: 17px;
+    line-height: 1.9;
+    color: var(--color-text);
+  }
+
+  .prose img + em {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-top: 0.5rem;
+    font-style: normal;
+  }
+
+  .pullquote {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--color-primary);
+    border-left: 3px solid var(--color-accent);
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+    background-color: var(--color-bg-secondary);
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+}
