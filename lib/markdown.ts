@@ -26,7 +26,7 @@ function remarkCustomDirectives() {
 
       if (d.type === 'containerDirective') {
         if (d.name === 'point') {
-          const label = getDirectiveLabel(d);
+          const label = getDirectiveLabel(d, true);
           d.data = d.data || {};
           d.data.hName = 'div';
           d.data.hProperties = { className: 'directive-point' };
@@ -45,7 +45,7 @@ function remarkCustomDirectives() {
         }
 
         if (d.name === 'warn') {
-          const label = getDirectiveLabel(d);
+          const label = getDirectiveLabel(d, true);
           d.data = d.data || {};
           d.data.hName = 'div';
           d.data.hProperties = { className: 'directive-warn' };
@@ -64,7 +64,7 @@ function remarkCustomDirectives() {
         }
 
         if (d.name === 'balloon') {
-          const label = getDirectiveLabel(d);
+          const label = getDirectiveLabel(d, true);
           d.data = d.data || {};
           d.data.hName = 'div';
           d.data.hProperties = { className: 'directive-balloon' };
@@ -133,7 +133,7 @@ function remarkCustomDirectives() {
           for (const child of d.children) {
             const c = child as unknown as DirectiveNode;
             if (c.type === 'containerDirective' && c.name === 'col') {
-              const colLabel = getDirectiveLabel(c);
+              const colLabel = getDirectiveLabel(c, true);
               c.data = c.data || {};
               c.data.hName = 'div';
               c.data.hProperties = { className: 'directive-compare-col' };
@@ -157,11 +157,19 @@ function remarkCustomDirectives() {
   };
 }
 
-function getDirectiveLabel(node: DirectiveNode): string {
+function getDirectiveLabel(node: DirectiveNode, removeFromChildren = false): string {
   const firstChild = node.children[0] as unknown as { type: string; value?: string; children?: Array<{ type: string; value?: string }> };
+  // Leaf directives: children are inline text nodes directly
+  if (firstChild && firstChild.type === 'text' && firstChild.value) {
+    return firstChild.value;
+  }
+  // Container directives: children are wrapped in a paragraph
   if (firstChild && firstChild.type === 'paragraph' && firstChild.children) {
     const textNode = firstChild.children[0];
     if (textNode && textNode.type === 'text' && textNode.value) {
+      if (removeFromChildren) {
+        node.children.shift();
+      }
       return textNode.value;
     }
   }
@@ -177,7 +185,7 @@ export async function markdownToHtml(markdown: string): Promise<string> {
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeHighlight)
     .use(rehypeSlug)
-    .use(rehypeAutolinkHeadings, { behavior: 'wrap' })
+    // rehypeAutolinkHeadings removed — headings should not be links
     .use(rehypeExternalLinks, {
       target: '_blank',
       rel: ['noopener', 'noreferrer'],

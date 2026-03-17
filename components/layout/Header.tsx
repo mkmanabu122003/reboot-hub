@@ -11,21 +11,24 @@ const Header: React.FC = () => {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 bg-bg border-b border-border">
-      <div className="max-w-content mx-auto px-4 flex items-center justify-between h-14 md:h-16">
-        <Link href="/" className="text-xl font-bold text-primary">
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border/50">
+      <div className="max-w-content mx-auto px-5 flex items-center justify-between h-[56px]">
+        <Link href="/" className="text-lg font-extrabold text-primary flex items-center gap-2">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
           {SITE_NAME}
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-6">
-          {Object.entries(CATEGORIES).map(([slug, cat]) => (
+        <nav className="hidden lg:flex items-center gap-7">
+          {Object.entries(CATEGORIES).slice(0, 4).map(([slug, cat]) => (
             <Link
               key={slug}
               href={`/${slug}/`}
-              className={`text-body-sm hover:text-primary transition-colors ${
+              className={`text-[13px] hover:text-primary transition-colors ${
                 pathname?.startsWith(`/${slug}`)
-                  ? 'text-primary font-bold border-b-2 border-primary pb-1'
+                  ? 'text-primary font-bold'
                   : 'text-text-muted'
               }`}
             >
@@ -33,20 +36,12 @@ const Header: React.FC = () => {
             </Link>
           ))}
           <Link
-            href="/products/"
-            className={`text-body-sm hover:text-primary transition-colors ${
-              pathname?.startsWith('/products') ? 'text-primary font-bold border-b-2 border-primary pb-1' : 'text-text-muted'
-            }`}
-          >
-            商品
-          </Link>
-          <Link
             href="/about/"
-            className={`text-body-sm hover:text-primary transition-colors ${
-              pathname === '/about' ? 'text-primary font-bold border-b-2 border-primary pb-1' : 'text-text-muted'
+            className={`text-[13px] hover:text-primary transition-colors ${
+              pathname === '/about' ? 'text-primary font-bold' : 'text-text-muted'
             }`}
           >
-            プロフィール
+            About
           </Link>
         </nav>
 

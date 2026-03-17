@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 interface PRBadgeProps {
   hasPR: boolean;
 }
@@ -6,9 +8,11 @@ const PRBadge: React.FC<PRBadgeProps> = ({ hasPR }) => {
   if (!hasPR) return null;
 
   return (
-    <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-bg-secondary rounded text-body-sm text-text-muted">
-      <span className="font-bold text-xs bg-border px-1.5 py-0.5 rounded">PR</span>
-      <span>本記事にはアフィリエイトリンクが含まれています</span>
+    <div className="text-xs text-[#9CA3AF] mb-2">
+      <Link href="/disclosure/" className="text-[#9CA3AF] underline hover:text-text-muted transition-colors">
+        PR
+      </Link>
+      <span className="ml-1">本記事にはアフィリエイトリンクが含まれています</span>
     </div>
   );
 };

@@ -118,14 +118,14 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         </div>
 
         {/* Hero Image */}
-        {fs.existsSync(path.join(process.cwd(), 'public', `/images/articles/${article.slug}.webp`)) && (
-          <div className="mt-6 relative aspect-video rounded-lg overflow-hidden">
+        {fs.existsSync(path.join(process.cwd(), 'public', article.thumbnail)) && (
+          <div className="mt-6 relative aspect-video rounded-lg overflow-hidden max-w-article">
             <Image
-              src={`/images/articles/${article.slug}.webp`}
+              src={article.thumbnail}
               alt={article.title}
               fill
               className="object-cover"
-              sizes="(max-width: 1200px) 100vw, 1200px"
+              sizes="(max-width: 720px) 100vw, 720px"
               priority
             />
           </div>
