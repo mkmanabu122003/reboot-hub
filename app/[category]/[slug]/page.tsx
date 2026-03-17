@@ -13,6 +13,7 @@ import AuthorBox from '@/components/article/AuthorBox';
 import ArticleBody from '@/components/article/ArticleBody';
 import TOC from '@/components/article/TOC';
 import AffiliateCard from '@/components/article/AffiliateCard';
+import NextActionBox from '@/components/article/NextActionBox';
 import RelatedArticles from '@/components/article/RelatedArticles';
 import ShareButtons from '@/components/common/ShareButtons';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -130,7 +131,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           </div>
         )}
 
-        {/* Share */}
+        {/* Share (top) */}
         <ShareButtons title={article.title} slug={article.slug} category={article.category} />
 
         {/* Content + TOC Layout */}
@@ -158,13 +159,23 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         {/* Affiliate Cards */}
         {article.affiliates && <AffiliateCard affiliates={article.affiliates} />}
 
+        {/* Next Action Box */}
+        <NextActionBox category={article.category} />
+
+        {/* Share (bottom) */}
+        <ShareButtons title={article.title} slug={article.slug} category={article.category} />
+
         {/* Author Detailed */}
         <div className="my-12">
           <AuthorBox variant="detailed" />
         </div>
 
         {/* Related Articles */}
-        <RelatedArticles articles={relatedArticles} />
+        <RelatedArticles
+          articles={relatedArticles}
+          currentSlug={article.slug}
+          currentCategory={article.category}
+        />
 
         {/* Product CTA (ai-career only) */}
         {product && (

@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               {SITE_NAME}
             </Link>
             <p className="mt-2 text-body-sm text-text-muted">
-              Big4出身者が語る、コンサルの先のキャリア戦略
+              IT12年×Big4経験者が語る、コンサルの先のキャリア戦略
             </p>
           </div>
 

@@ -1,7 +1,7 @@
 export const SITE_NAME = 'Reboot Hub';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://reboot-hub.jp';
-export const SITE_DESCRIPTION = 'Big4出身者が語る、コンサルの先のキャリア戦略';
-export const TAGLINE = 'Big4出身者が語る、コンサルの先のキャリア戦略';
+export const SITE_DESCRIPTION = 'IT12年×Big4経験者が語る、コンサルの先のキャリア戦略';
+export const TAGLINE = 'IT12年×Big4経験者が語る、コンサルの先のキャリア戦略';
 
 export const CATEGORIES = {
   'consul-real': {
@@ -37,10 +37,10 @@ export const AUTHOR = {
   name: 'Manabu',
   nameEn: 'Manabu',
   title: 'AI・ITコンサルタント',
-  bio: 'Big4コンサルティングファーム出身。IT・AIコンサルタントとして10年以上の経験を持つ。現在はフリーランスとして、AI活用による業務自動化のコンサルティングを提供。',
+  bio: '新卒でメガベンチャーに入社後、ITベンチャー、事業会社のシステム部門を経て、Big4コンサルファームでITコンサルタントとしてチームリーダーを務める。その後フリーランスとして独立し、現在はAI活用コンサルティング・ITコンサルティングを中心に活動。日英バイリンガル。',
   bioShort: 'Big4出身のAI・ITコンサルタント',
   avatar: '/images/author/avatar.webp',
-  credentials: ['公認会計士試験合格', '通訳案内士', 'AWS認定ソリューションアーキテクト'],
+  credentials: ['IT業界12年', 'Big4コンサル出身', '日英バイリンガル'],
   social: {
     twitter: 'https://twitter.com/xxxxx',
     linkedin: 'https://linkedin.com/in/xxxxx',
