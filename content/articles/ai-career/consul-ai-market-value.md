@@ -6,7 +6,7 @@ tags: ["AI", "市場価値", "キャリアアップ", "コンサル"]
 publishedAt: "2026-03-30"
 updatedAt: "2026-03-30"
 author: "Manabu"
-thumbnail: ""
+thumbnail: "/images/articles/consul-ai-market-value.webp"
 hasPR: false
 productSlug: "ai-templates"
 relatedSlugs: ["claude-api-automation", "why-i-left-big4", "freelance-first-year"]

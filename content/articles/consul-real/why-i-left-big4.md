@@ -6,7 +6,7 @@ tags: ["Big4", "退職", "フリーランス", "独立"]
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"
 author: "Manabu"
-thumbnail: "/images/articles/why-i-left-big4/thumbnail.webp"
+thumbnail: "/images/articles/why-i-left-big4.webp"
 hasPR: true
 affiliates:
   - name: "JACリクルートメント"

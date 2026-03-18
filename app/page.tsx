@@ -16,8 +16,8 @@ export default function Home() {
 
       {/* Hero */}
       <section
-        className="py-16 md:py-24 px-5 text-center"
-        style={{ background: 'linear-gradient(135deg, #1B4F72 0%, #2E75B6 100%)' }}
+        className="relative py-16 md:py-24 px-5 text-center bg-cover bg-center max-h-[480px] flex flex-col items-center justify-center"
+        style={{ backgroundImage: 'linear-gradient(135deg, rgba(27,79,114,0.75) 0%, rgba(46,117,182,0.6) 100%), url(/images/hero-bg.webp)', backgroundSize: 'cover', backgroundPosition: 'center 40%' }}
       >
         <h1 className="text-white text-4xl md:text-5xl font-extrabold tracking-tight">
           {SITE_NAME}
