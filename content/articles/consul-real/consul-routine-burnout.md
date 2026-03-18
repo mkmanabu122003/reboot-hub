@@ -13,7 +13,6 @@ relatedSlugs: ["why-i-left-big4", "consul-agent-top5"]
 
 ## 「またこのプロジェクトか」と思った瞬間
 
-![デスクでパワポを開いたまま手が止まっている — ルーティン化に気づいた瞬間](/images/articles/consul-routine-burnout/opening.webp)
 
 Big4コンサルファームに入って約2年が経った頃。新しいプロジェクトにアサインされた初日、資料のフォルダ構成を見て「あ、前と同じだ」と思った。
 

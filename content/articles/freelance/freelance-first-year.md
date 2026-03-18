@@ -18,7 +18,6 @@ relatedSlugs: ["why-i-left-big4", "freelance-full-record"]
 
 ## 月収50万円からのスタート — フリーランス1年目のリアル
 
-![Big4を辞めてフリーランスになった1年目 — ノートPCとコーヒーだけの自宅オフィス](/images/articles/freelance-first-year/opening.webp)
 
 Big4コンサルファームを辞めた翌月。僕の月収は50万円台だった。
 
