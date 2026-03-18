@@ -6,7 +6,7 @@ tags: ["フリーランス", "独立", "1年目", "案件獲得"]
 publishedAt: "2026-03-28"
 updatedAt: "2026-03-28"
 author: "Manabu"
-thumbnail: ""
+thumbnail: "/images/articles/freelance-first-year.webp"
 hasPR: true
 affiliates:
   - name: "フリーコンサルタント.jp"
