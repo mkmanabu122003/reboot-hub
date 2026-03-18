@@ -14,7 +14,6 @@ relatedSlugs: ["consul-ai-market-value", "why-i-left-big4"]
 
 ## コンサル業務の7割は「型」でできている
 
-![コンサル業務の多くは定型作業 — Claude APIで自動化できる領域](/images/articles/claude-api-automation/opening.webp)
 
 Big4にいた頃、僕は毎週同じような作業を繰り返していた。議事録の整形、市場調査データの要約、プロポーザル資料のドラフト。どれも頭を使う仕事ではあるが、パターンは決まっている。
 

@@ -18,7 +18,6 @@ relatedSlugs: ["consul-vs-jigyou", "freelance-first-year", "consul-agent-top5"]
 
 ## コンサルを辞めたいと思った最初の瞬間
 
-![深夜のオフィスでパワポを直す — コンサルを辞めたいと思った瞬間](/images/articles/why-i-left-big4/opening.webp)
 
 深夜1時。オフィスの会議室で、僕はパワポのスライドを黙々と直していた。
 

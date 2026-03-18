@@ -26,7 +26,6 @@ relatedSlugs: ["why-i-left-big4", "consul-career-5patterns"]
 
 ## コンサル出身者の転職エージェント選びは、普通とは違う
 
-![転職エージェントとの面談 — コンサル出身者の市場価値を正しく伝える](/images/articles/consul-agent-top5/opening.webp)
 
 コンサルを辞めようと思った時、僕はまず転職エージェントに登録した。在職中だったから、転職するかどうかは決めていなかった。ただ、自分の市場価値を知りたかった。
 

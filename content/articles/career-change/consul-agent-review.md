@@ -22,7 +22,6 @@ relatedSlugs: ["consul-agent-top5", "big4-quit-story"]
 
 ## Big4在職中にエージェント3社と面談した理由
 
-![転職エージェントとの面談に向かう — Big4在職中の市場価値チェック](/images/articles/consul-agent-review/opening.webp)
 
 「辞めるかどうかは決めてないけど、自分の値段を知りたい」。
 

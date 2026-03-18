@@ -14,7 +14,6 @@ relatedSlugs: ["claude-api-automation", "why-i-left-big4", "freelance-first-year
 
 ## 結論：月単価が40万円以上変わった
 
-![コンサル×AIスキルで月単価が変わるイメージ](/images/articles/consul-ai-market-value/opening.webp)
 
 先に結論を書く。僕の場合、AIスキルを身につける前と後で、月額単価が約40万円上がった。
 

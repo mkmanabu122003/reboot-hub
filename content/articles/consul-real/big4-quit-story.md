@@ -13,7 +13,6 @@ relatedSlugs: ["why-i-left-big4", "freelance-full-record"]
 
 ## Big4コンサルで身につけたスキルは、独立後に最大の武器になった
 
-![Big4コンサルで得たスキルが独立後に活きるイメージ](/images/articles/big4-quit-story/opening.webp)
 
 Big4コンサルファームを約2.5年で辞めて、フリーランスになった。辞めた経緯は[コンサルを辞めたいと思った瞬間](/consul-real/why-i-left-big4/)に書いたので、この記事では別の角度から話したい。
 

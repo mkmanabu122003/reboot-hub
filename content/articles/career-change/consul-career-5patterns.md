@@ -18,7 +18,6 @@ relatedSlugs: ["why-i-left-big4", "freelance-first-year", "consul-agent-top5"]
 
 ## コンサルを辞めた後、みんなどこへ行くのか
 
-![コンサルを辞めた後のキャリア5パターンの全体像](/images/articles/consul-career-5patterns/opening.webp)
 
 Big4コンサルファームを辞めた同僚たちは、今どこで何をしているのか。
 

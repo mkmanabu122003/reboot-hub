@@ -13,7 +13,6 @@ relatedSlugs: ["why-i-left-big4", "consul-career-5patterns"]
 
 ## 事業会社とコンサル、どっちがいいのか問題
 
-![事業会社とコンサルファームの分岐点 — 両方を経験した視点](/images/articles/consul-vs-jigyou/opening.webp)
 
 「事業会社とコンサル、結局どっちがいいんですか？」
 
