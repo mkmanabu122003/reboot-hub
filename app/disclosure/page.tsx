@@ -1,10 +1,11 @@
-import type { Metadata } from 'next';
 import Breadcrumb from '@/components/layout/Breadcrumb';
+import { generatePageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: '広告掲載ポリシー',
   description: 'Reboot Hubの広告掲載ポリシーについて。',
-};
+  path: '/disclosure/',
+});
 
 export default function DisclosurePage() {
   return (

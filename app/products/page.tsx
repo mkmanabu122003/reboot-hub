@@ -1,12 +1,13 @@
-import type { Metadata } from 'next';
 import { getProducts } from '@/lib/products';
 import ProductCard from '@/components/product/ProductCard';
 import Breadcrumb from '@/components/layout/Breadcrumb';
+import { generatePageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: 'AI業務自動化ツール',
   description: 'コンサル実務で使えるAI業務自動化ツール・テンプレート・講座の一覧。',
-};
+  path: '/products/',
+});
 
 export default function ProductsPage() {
   const products = getProducts();

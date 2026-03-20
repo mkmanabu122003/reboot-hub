@@ -1,12 +1,13 @@
-import type { Metadata } from 'next';
 import { AUTHOR } from '@/lib/constants';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { generatePageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: 'プロフィール',
   description: `${AUTHOR.name} - ${AUTHOR.title}。${AUTHOR.bioShort}`,
-};
+  path: '/about/',
+});
 
 export default function AboutPage() {
   return (

@@ -13,6 +13,12 @@ export interface ArticleFrontmatter {
   affiliates?: Affiliate[];
   relatedSlugs?: string[];
   productSlug?: string;
+  faqs?: FAQ[];
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
 }
 
 export interface Affiliate {

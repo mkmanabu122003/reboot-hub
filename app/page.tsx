@@ -1,8 +1,27 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
-import { SITE_NAME, TAGLINE, CATEGORIES, CategorySlug } from '@/lib/constants';
+import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, TAGLINE, CATEGORIES, CategorySlug } from '@/lib/constants';
 import { getArticles, getArticlesByCategory } from '@/lib/articles';
 import ArticleCard from '@/components/article/ArticleCard';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+
+export const metadata: Metadata = {
+  openGraph: {
+    title: `${SITE_NAME} | ${SITE_DESCRIPTION}`,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    type: 'website',
+    siteName: SITE_NAME,
+    images: [{ url: `${SITE_URL}/images/ogp/default.webp` }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${SITE_NAME} | ${SITE_DESCRIPTION}`,
+    description: SITE_DESCRIPTION,
+    images: [`${SITE_URL}/images/ogp/default.webp`],
+  },
+  alternates: { canonical: SITE_URL },
+};
 
 export default function Home() {
   const allArticles = getArticles();

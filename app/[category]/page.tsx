@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { CATEGORIES, CategorySlug, SITE_NAME } from '@/lib/constants';
+import { CATEGORIES, CategorySlug, SITE_NAME, SITE_URL } from '@/lib/constants';
 import { getArticlesByCategory } from '@/lib/articles';
 import ArticleCard from '@/components/article/ArticleCard';
 import Breadcrumb from '@/components/layout/Breadcrumb';
+import SchemaOrg from '@/components/seo/SchemaOrg';
 
 interface CategoryPageProps {
   params: { category: string };
@@ -17,9 +18,24 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
   const category = CATEGORIES[params.category as CategorySlug];
   if (!category) return {};
 
+  const url = `${SITE_URL}/${params.category}/`;
   return {
     title: category.name,
     description: category.description,
+    openGraph: {
+      title: `${category.name} | ${SITE_NAME}`,
+      description: category.description,
+      url,
+      type: 'website',
+      siteName: SITE_NAME,
+      images: [{ url: `${SITE_URL}/images/ogp/default.webp` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${category.name} | ${SITE_NAME}`,
+      description: category.description,
+    },
+    alternates: { canonical: url },
   };
 }
 
@@ -35,6 +51,18 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <div className="max-w-content mx-auto px-4">
+      <SchemaOrg
+        type="collectionPage"
+        collectionPage={{
+          name: category.name,
+          description: category.description,
+          url: `${SITE_URL}/${categorySlug}/`,
+          articles: articles.map((a) => ({
+            title: a.title,
+            url: `${SITE_URL}/${a.category}/${a.slug}/`,
+          })),
+        }}
+      />
       <Breadcrumb items={[{ label: category.name }]} />
 
       <section className="py-8">

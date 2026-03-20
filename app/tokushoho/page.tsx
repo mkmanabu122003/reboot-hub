@@ -1,10 +1,11 @@
-import type { Metadata } from 'next';
 import Breadcrumb from '@/components/layout/Breadcrumb';
+import { generatePageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: '特定商取引法に基づく表記',
   description: '特定商取引法に基づく表記。',
-};
+  path: '/tokushoho/',
+});
 
 export default function TokushohoPage() {
   return (

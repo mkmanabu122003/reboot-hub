@@ -83,6 +83,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   return (
     <div className="max-w-content mx-auto px-4">
       <SchemaOrg type="article" article={article} />
+      {article.faqs && article.faqs.length > 0 && (
+        <SchemaOrg type="faq" faqs={article.faqs} />
+      )}
       <Breadcrumb
         items={[
           { label: category.name, href: `/${article.category}/` },

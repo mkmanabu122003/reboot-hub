@@ -1,10 +1,11 @@
-import type { Metadata } from 'next';
 import Breadcrumb from '@/components/layout/Breadcrumb';
+import { generatePageMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: 'プライバシーポリシー',
   description: 'Reboot Hubのプライバシーポリシーについて。',
-};
+  path: '/privacy/',
+});
 
 export default function PrivacyPage() {
   return (

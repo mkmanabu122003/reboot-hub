@@ -1,12 +1,21 @@
 import { SITE_NAME, SITE_URL, AUTHOR } from '@/lib/constants';
-import { Article } from '@/lib/types';
+import { Article, FAQ } from '@/lib/types';
 
-type SchemaType = 'website' | 'article' | 'person' | 'product';
+type SchemaType = 'website' | 'article' | 'person' | 'product' | 'faq' | 'collectionPage';
+
+interface CollectionPageData {
+  name: string;
+  description: string;
+  url: string;
+  articles: { title: string; url: string }[];
+}
 
 interface SchemaOrgProps {
   type: SchemaType;
   article?: Article;
   product?: { title: string; description: string; price: number; thumbnail: string };
+  faqs?: FAQ[];
+  collectionPage?: CollectionPageData;
 }
 
 function getWebSiteSchema() {
@@ -94,7 +103,37 @@ function getProductSchema(product: { title: string; description: string; price: 
   };
 }
 
-const SchemaOrg: React.FC<SchemaOrgProps> = ({ type, article, product }) => {
+function getFAQSchema(faqs: FAQ[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
+function getCollectionPageSchema(data: CollectionPageData) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: data.name,
+    description: data.description,
+    url: data.url,
+    hasPart: data.articles.map((a) => ({
+      '@type': 'Article',
+      headline: a.title,
+      url: a.url,
+    })),
+  };
+}
+
+const SchemaOrg: React.FC<SchemaOrgProps> = ({ type, article, product, faqs, collectionPage }) => {
   let schema: unknown;
 
   switch (type) {
@@ -109,6 +148,12 @@ const SchemaOrg: React.FC<SchemaOrgProps> = ({ type, article, product }) => {
       break;
     case 'product':
       if (product) schema = getProductSchema(product);
+      break;
+    case 'faq':
+      if (faqs && faqs.length > 0) schema = getFAQSchema(faqs);
+      break;
+    case 'collectionPage':
+      if (collectionPage) schema = getCollectionPageSchema(collectionPage);
       break;
   }
 
