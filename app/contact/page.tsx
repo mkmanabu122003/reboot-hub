@@ -5,23 +5,42 @@ import Breadcrumb from '@/components/layout/Breadcrumb';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.currentTarget;
-    const formData = new FormData(form);
+    setLoading(true);
+    setError(false);
 
-    const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID || 'xxxxxxxx';
+    const form = e.currentTarget;
 
     try {
-      await fetch(`https://formspree.io/f/${formspreeId}`, {
-        method: 'POST',
-        body: formData,
-        headers: { Accept: 'application/json' },
+      const res = await fetch('/__forms.html', { method: 'HEAD' }).catch(() => null);
+
+      // Submit via Netlify Forms
+      const formData = new URLSearchParams();
+      formData.append('form-name', 'contact');
+      const data = new FormData(form);
+      data.forEach((value, key) => {
+        formData.append(key, value.toString());
       });
-      setSubmitted(true);
+
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData.toString(),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        setError(true);
+      }
     } catch {
-      setSubmitted(true);
+      setError(true);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -43,7 +62,27 @@ export default function ContactPage() {
         <p className="mt-2 text-text-muted">ご質問・ご相談はこちらからお気軽にどうぞ。</p>
       </section>
 
-      <form onSubmit={handleSubmit} className="space-y-6 pb-12">
+      {error && (
+        <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700 text-body-sm">
+          送信に失敗しました。お手数ですが、もう一度お試しいただくか、<a href="mailto:info@guidetech.jp" className="underline">info@guidetech.jp</a> まで直接ご連絡ください。
+        </div>
+      )}
+
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
+        className="space-y-6 pb-12"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <p className="hidden">
+          <label>
+            Don&apos;t fill this out: <input name="bot-field" />
+          </label>
+        </p>
+
         <div>
           <label htmlFor="name" className="block text-body-sm font-bold text-text mb-1">
             お名前 <span className="text-accent">*</span>
@@ -111,9 +150,10 @@ export default function ContactPage() {
 
         <button
           type="submit"
-          className="px-8 py-3 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-bold"
+          disabled={loading}
+          className="px-8 py-3 bg-primary text-white rounded-lg hover:opacity-90 transition-opacity font-bold disabled:opacity-50"
         >
-          送信する
+          {loading ? '送信中...' : '送信する'}
         </button>
       </form>
     </div>
