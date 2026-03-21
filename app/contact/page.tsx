@@ -3,6 +3,8 @@
 import { useState, FormEvent } from 'react';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 
+const FORM_ENDPOINT = 'https://formsubmit.co/info@guidetech.jp';
+
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
@@ -14,22 +16,13 @@ export default function ContactPage() {
     setError(false);
 
     const form = e.currentTarget;
+    const formData = new FormData(form);
 
     try {
-      const res = await fetch('/__forms.html', { method: 'HEAD' }).catch(() => null);
-
-      // Submit via Netlify Forms
-      const formData = new URLSearchParams();
-      formData.append('form-name', 'contact');
-      const data = new FormData(form);
-      data.forEach((value, key) => {
-        formData.append(key, value.toString());
-      });
-
-      const response = await fetch('/', {
+      const response = await fetch(FORM_ENDPOINT, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: formData.toString(),
+        body: formData,
+        headers: { Accept: 'application/json' },
       });
 
       if (response.ok) {
@@ -64,24 +57,16 @@ export default function ContactPage() {
 
       {error && (
         <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-700 text-body-sm">
-          送信に失敗しました。お手数ですが、もう一度お試しいただくか、<a href="mailto:info@guidetech.jp" className="underline">info@guidetech.jp</a> まで直接ご連絡ください。
+          送信に失敗しました。お手数ですが、もう一度お試しください。
         </div>
       )}
 
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-        className="space-y-6 pb-12"
-      >
-        <input type="hidden" name="form-name" value="contact" />
-        <p className="hidden">
-          <label>
-            Don&apos;t fill this out: <input name="bot-field" />
-          </label>
-        </p>
+      <form onSubmit={handleSubmit} className="space-y-6 pb-12">
+        {/* FormSubmit.co settings */}
+        <input type="hidden" name="_subject" value="Reboot Hub お問い合わせ" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
 
         <div>
           <label htmlFor="name" className="block text-body-sm font-bold text-text mb-1">
