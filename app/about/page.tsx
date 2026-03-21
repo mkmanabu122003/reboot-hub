@@ -1,4 +1,5 @@
 import { AUTHOR } from '@/lib/constants';
+import Image from 'next/image';
 import Link from 'next/link';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -19,9 +20,13 @@ export default function AboutPage() {
       {/* リード */}
       <section className="py-8">
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-          <div className="w-32 h-32 rounded-full bg-bg-secondary flex items-center justify-center text-text-muted text-4xl flex-shrink-0">
-            {AUTHOR.name[0]}
-          </div>
+          <Image
+            src={AUTHOR.avatar}
+            alt={AUTHOR.name}
+            width={128}
+            height={128}
+            className="w-32 h-32 rounded-full object-cover flex-shrink-0"
+          />
           <div>
             <h1>{AUTHOR.name}</h1>
             <p className="text-text-muted mt-1">{AUTHOR.title}</p>
