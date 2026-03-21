@@ -3,7 +3,7 @@
 import { useState, FormEvent } from 'react';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 
-const FORM_ENDPOINT = 'https://formsubmit.co/info@guidetech.jp';
+const FORM_ENDPOINT = 'https://formsubmit.co/ajax/info@guidetech.jp';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -17,12 +17,19 @@ export default function ContactPage() {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
+    const data: Record<string, string> = {};
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
 
     try {
       const response = await fetch(FORM_ENDPOINT, {
         method: 'POST',
-        body: formData,
-        headers: { Accept: 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(data),
       });
 
       if (response.ok) {
