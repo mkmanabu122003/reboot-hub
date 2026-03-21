@@ -5,7 +5,7 @@ interface ArticleBodyProps {
 const ArticleBody: React.FC<ArticleBodyProps> = ({ content }) => {
   return (
     <div
-      className="prose prose-lg max-w-none"
+      className="prose max-w-none"
       dangerouslySetInnerHTML={{ __html: content }}
     />
   );

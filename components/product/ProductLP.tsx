@@ -46,7 +46,7 @@ const ProductLP: React.FC<ProductLPProps> = ({ product, htmlContent }) => {
       {/* Body */}
       <section className="max-w-article mx-auto px-4 py-8">
         <div
-          className="prose prose-lg max-w-none"
+          className="prose max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </section>
