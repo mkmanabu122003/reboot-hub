@@ -5,7 +5,7 @@ category: "ai-career"
 tags: ["AI", "市場価値", "キャリアアップ", "コンサル"]
 publishedAt: "2026-03-30"
 updatedAt: "2026-03-30"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-ai-market-value.webp"
 hasPR: false
 productSlug: "ai-templates"

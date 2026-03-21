@@ -5,7 +5,7 @@ category: "ai-career"
 tags: ["AI", "キャリア", "生存戦略", "コンサル"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/ai-consul-career-survival.webp"
 hasPR: false
 relatedSlugs: ["consul-ai-market-value", "claude-api-automation", "post-consul-no-brand"]

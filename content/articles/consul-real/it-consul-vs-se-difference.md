@@ -5,7 +5,7 @@ category: "consul-real"
 tags: ["ITコンサル", "社内SE", "比較", "転職"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/it-consul-vs-se-difference.webp"
 hasPR: true
 affiliates:

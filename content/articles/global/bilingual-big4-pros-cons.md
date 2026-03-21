@@ -5,7 +5,7 @@ category: "global"
 tags: ["バイリンガル", "英語", "Big4", "グローバル"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/bilingual-big4-pros-cons.webp"
 hasPR: true
 affiliates:

@@ -5,7 +5,7 @@ category: "freelance"
 tags: ["フリーランス", "手取り", "年収比較", "コンサル"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-employee-vs-freelance-income.webp"
 hasPR: true
 affiliates:

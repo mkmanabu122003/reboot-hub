@@ -5,7 +5,7 @@ category: "consul-real"
 tags: ["Big4", "退職", "キャリア", "体験談"]
 publishedAt: "2026-03-01"
 updatedAt: "2026-03-01"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/big4-quit-story.webp"
 hasPR: false
 relatedSlugs: ["why-i-left-big4", "freelance-full-record", "consul-vs-jigyou"]

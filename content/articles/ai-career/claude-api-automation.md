@@ -5,7 +5,7 @@ category: "ai-career"
 tags: ["Claude API", "AI自動化", "プロンプト", "業務効率化"]
 publishedAt: "2026-03-10"
 updatedAt: "2026-03-15"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/claude-api-automation.webp"
 hasPR: false
 productSlug: "ai-templates"

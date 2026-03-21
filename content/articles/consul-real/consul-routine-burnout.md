@@ -5,7 +5,7 @@ category: "consul-real"
 tags: ["辞めどき", "成長停滞", "キャリア"]
 publishedAt: "2026-03-20"
 updatedAt: "2026-03-20"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-routine-burnout.webp"
 hasPR: false
 relatedSlugs: ["why-i-left-big4", "consul-agent-top5", "consul-vs-jigyou"]

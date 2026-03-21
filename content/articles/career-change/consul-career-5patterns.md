@@ -5,7 +5,7 @@ category: "career-change"
 tags: ["ポストコンサル", "キャリアパス", "年収"]
 publishedAt: "2026-03-26"
 updatedAt: "2026-03-26"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-career-5patterns.webp"
 hasPR: true
 affiliates:

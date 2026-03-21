@@ -5,7 +5,7 @@ category: "consul-real"
 tags: ["Big4", "アサイン", "PMO", "プロジェクト"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/big4-assign-gacha.webp"
 hasPR: true
 affiliates:

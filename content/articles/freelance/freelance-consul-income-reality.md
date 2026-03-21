@@ -5,7 +5,7 @@ category: "freelance"
 tags: ["フリーランス", "単価", "年収", "ITコンサル"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/freelance-consul-income-reality.webp"
 hasPR: true
 affiliates:

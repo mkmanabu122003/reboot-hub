@@ -38,36 +38,10 @@ const AuthorBox: React.FC<AuthorBoxProps> = ({ variant }) => {
           ))}
         </div>
         <p className="text-sm text-text-muted leading-[1.7]">{AUTHOR.bio}</p>
-        <div className="flex items-center gap-3 mt-3">
-          {AUTHOR.social.twitter && (
-            <a
-              href={AUTHOR.social.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-8 h-8 rounded-full bg-white border border-border flex items-center justify-center text-text-muted hover:text-primary hover:border-primary transition-colors"
-              aria-label="Twitter"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-              </svg>
-            </a>
-          )}
-          {AUTHOR.social.note && (
-            <a
-              href={AUTHOR.social.note}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-8 h-8 rounded-full bg-white border border-border flex items-center justify-center text-text-muted hover:text-primary hover:border-primary transition-colors"
-              aria-label="Note"
-            >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
-              </svg>
-            </a>
-          )}
+        <div className="mt-3">
           <Link
             href="/about/"
-            className="text-sm text-secondary hover:text-primary transition-colors ml-1"
+            className="text-sm text-secondary hover:text-primary transition-colors"
           >
             プロフィールを見る
           </Link>

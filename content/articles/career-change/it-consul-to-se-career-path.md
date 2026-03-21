@@ -5,7 +5,7 @@ category: "career-change"
 tags: ["社内SE", "ITコンサル", "転職", "キャリアチェンジ"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/it-consul-to-se-career-path.webp"
 hasPR: true
 affiliates:

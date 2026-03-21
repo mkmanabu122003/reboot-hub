@@ -5,7 +5,7 @@ category: "consul-real"
 tags: ["事業会社", "コンサル", "比較", "転職"]
 publishedAt: "2026-03-22"
 updatedAt: "2026-03-22"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-vs-jigyou.webp"
 hasPR: false
 relatedSlugs: ["why-i-left-big4", "consul-career-5patterns"]

@@ -44,18 +44,13 @@ export const CATEGORIES = {
 export type CategorySlug = keyof typeof CATEGORIES;
 
 export const AUTHOR = {
-  name: 'Manabu',
-  nameEn: 'Manabu',
+  name: 'Kay',
+  nameEn: 'Kay',
   title: 'AI・ITコンサルタント',
   bio: '新卒でメガベンチャーに入社後、ITベンチャー、事業会社のシステム部門を経て、Big4コンサルファームでITコンサルタントとしてチームリーダーを務める。その後フリーランスとして独立し、現在はAI活用コンサルティング・ITコンサルティングを中心に活動。日英バイリンガル。',
   bioShort: 'Big4出身のAI・ITコンサルタント',
   avatar: '/images/author/avatar.webp',
   credentials: ['IT業界12年', 'Big4コンサル出身', '日英バイリンガル'],
-  social: {
-    twitter: 'https://twitter.com/xxxxx',
-    linkedin: 'https://linkedin.com/in/xxxxx',
-    note: 'https://note.com/xxxxx',
-  },
 } as const;
 
 export const ARTICLES_PER_PAGE = 10;

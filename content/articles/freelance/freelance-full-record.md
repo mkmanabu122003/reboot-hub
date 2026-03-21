@@ -5,7 +5,7 @@ category: "freelance"
 tags: ["フリーランス", "独立", "収支", "体験談"]
 publishedAt: "2026-03-08"
 updatedAt: "2026-03-08"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/freelance-full-record.webp"
 hasPR: false
 relatedSlugs: ["freelance-first-year", "big4-quit-story", "consul-career-5patterns"]

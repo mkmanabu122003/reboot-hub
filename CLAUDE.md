@@ -8,7 +8,7 @@ Next.js + TypeScript + Tailwind CSS + Markdown（SSG）。Netlifyでホスティ
 - ドメイン: reboot-hub.jp
 - サイト名: Reboot Hub
 - タグライン: Big4出身者が語る、コンサルの先のキャリア戦略
-- 著者名: Manabu（姓は出さない。イラストアバター使用。顔写真なし）
+- 著者名: Kay（ペンネーム。本名は一切記載しない。イラストアバター使用。顔写真なし）
 
 ## 技術スタック
 - Next.js 14+ (App Router)

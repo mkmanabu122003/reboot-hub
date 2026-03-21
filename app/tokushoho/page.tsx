@@ -19,7 +19,7 @@ export default function TokushohoPage() {
           <tbody>
             <tr>
               <th className="text-left pr-8 py-2">販売業者</th>
-              <td className="py-2">Manabu</td>
+              <td className="py-2">Kay</td>
             </tr>
             <tr>
               <th className="text-left pr-8 py-2">所在地</th>

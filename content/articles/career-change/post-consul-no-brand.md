@@ -5,7 +5,7 @@ category: "career-change"
 tags: ["退職", "独立", "フリーランス", "体験談"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/post-consul-no-brand.webp"
 hasPR: false
 relatedSlugs: ["why-i-left-big4", "freelance-consul-first-6months", "consul-3year-quit"]

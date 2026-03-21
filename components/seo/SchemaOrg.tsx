@@ -46,11 +46,6 @@ function getPersonSchema() {
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: cred,
     })),
-    sameAs: [
-      AUTHOR.social.twitter,
-      AUTHOR.social.linkedin,
-      AUTHOR.social.note,
-    ].filter(Boolean),
   };
 }
 
@@ -68,7 +63,6 @@ function getArticleSchema(article: Article) {
         '@type': 'Person',
         name: AUTHOR.name,
         url: `${SITE_URL}/about/`,
-        sameAs: [AUTHOR.social.twitter, AUTHOR.social.linkedin].filter(Boolean),
       },
       publisher: {
         '@type': 'Organization',

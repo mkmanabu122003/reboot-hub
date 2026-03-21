@@ -5,7 +5,7 @@ category: "career-change"
 tags: ["転職エージェント", "比較", "コンサル転職"]
 publishedAt: "2026-03-24"
 updatedAt: "2026-03-24"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-agent-top5.webp"
 hasPR: true
 affiliates:

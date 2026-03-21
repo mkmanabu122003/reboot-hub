@@ -5,7 +5,7 @@ category: "career-change"
 tags: ["短期退職", "コンサル転職", "キャリア", "Big4"]
 publishedAt: "2026-03-21"
 updatedAt: "2026-03-21"
-author: "Manabu"
+author: "Kay"
 thumbnail: "/images/articles/consul-3year-quit.webp"
 hasPR: true
 affiliates:
