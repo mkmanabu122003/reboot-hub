@@ -8,7 +8,7 @@ updatedAt: "2026-03-08"
 author: "Manabu"
 thumbnail: "/images/articles/freelance-full-record.webp"
 hasPR: false
-relatedSlugs: ["freelance-first-year", "big4-quit-story"]
+relatedSlugs: ["freelance-first-year", "big4-quit-story", "consul-career-5patterns"]
 ---
 
 ## 独立1年目の売上は1,200万円だった

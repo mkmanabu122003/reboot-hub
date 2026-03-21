@@ -8,7 +8,7 @@ updatedAt: "2026-03-20"
 author: "Manabu"
 thumbnail: "/images/articles/consul-routine-burnout.webp"
 hasPR: false
-relatedSlugs: ["why-i-left-big4", "consul-agent-top5"]
+relatedSlugs: ["why-i-left-big4", "consul-agent-top5", "consul-vs-jigyou"]
 ---
 
 ## 「またこのプロジェクトか」と思った瞬間

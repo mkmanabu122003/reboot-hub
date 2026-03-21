@@ -9,7 +9,7 @@ author: "Manabu"
 thumbnail: "/images/articles/claude-api-automation.webp"
 hasPR: false
 productSlug: "ai-templates"
-relatedSlugs: ["consul-ai-market-value", "why-i-left-big4"]
+relatedSlugs: ["consul-ai-market-value", "why-i-left-big4", "freelance-first-year"]
 ---
 
 ## コンサル業務の7割は「型」でできている

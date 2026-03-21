@@ -19,12 +19,13 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
   if (!category) return {};
 
   const url = `${SITE_URL}/${params.category}/`;
+  const description = `${category.description}。${category.pillarContent.slice(0, 80)}`;
   return {
     title: category.name,
-    description: category.description,
+    description,
     openGraph: {
       title: `${category.name} | ${SITE_NAME}`,
-      description: category.description,
+      description,
       url,
       type: 'website',
       siteName: SITE_NAME,
@@ -33,7 +34,7 @@ export function generateMetadata({ params }: CategoryPageProps): Metadata {
     twitter: {
       card: 'summary_large_image',
       title: `${category.name} | ${SITE_NAME}`,
-      description: category.description,
+      description,
     },
     alternates: { canonical: url },
   };
@@ -70,14 +71,37 @@ export default function CategoryPage({ params }: CategoryPageProps) {
         <p className="mt-2 text-text-muted">{category.description}</p>
       </section>
 
+      {/* Pillar Content */}
+      <section className="pb-8 border-b border-border mb-8">
+        <p className="text-text leading-relaxed">{category.pillarContent}</p>
+        {category.pillarTopics.length > 0 && (
+          <div className="mt-6">
+            <h2 className="text-base font-bold text-text mb-3">このカテゴリで扱うテーマ</h2>
+            <ul className="flex flex-wrap gap-2">
+              {category.pillarTopics.map((topic) => (
+                <li
+                  key={topic}
+                  className="px-3 py-1.5 text-body-sm rounded-full border border-border text-text-muted"
+                >
+                  {topic}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
+
       {articles.length === 0 ? (
         <p className="text-text-muted py-8">まだ記事がありません。</p>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
-          {articles.map((article) => (
-            <ArticleCard key={article.slug} article={article} />
-          ))}
-        </div>
+        <>
+          <h2 className="text-lg font-bold text-text mb-6">{category.name}の記事一覧</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
+            {articles.map((article) => (
+              <ArticleCard key={article.slug} article={article} />
+            ))}
+          </div>
+        </>
       )}
     </div>
   );

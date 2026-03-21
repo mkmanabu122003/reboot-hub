@@ -8,7 +8,7 @@ updatedAt: "2026-03-01"
 author: "Manabu"
 thumbnail: "/images/articles/big4-quit-story.webp"
 hasPR: false
-relatedSlugs: ["why-i-left-big4", "freelance-full-record"]
+relatedSlugs: ["why-i-left-big4", "freelance-full-record", "consul-vs-jigyou"]
 ---
 
 ## Big4コンサルで身につけたスキルは、独立後に最大の武器になった
