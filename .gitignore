@@ -16,3 +16,6 @@ service-account.json
 *.jpeg
 *.png
 !public/images/**/*.webp
+!public/favicon-*.png
+!public/apple-touch-icon.png
+!public/icon-*.png

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { SITE_NAME, CATEGORIES } from '@/lib/constants';
@@ -13,11 +14,8 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border/50">
       <div className="max-w-content mx-auto px-5 flex items-center justify-between h-[56px]">
-        <Link href="/" className="text-lg font-extrabold text-primary flex items-center gap-2">
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-          </svg>
-          {SITE_NAME}
+        <Link href="/" className="flex items-center">
+          <Image src="/images/logo.webp" alt={SITE_NAME} width={160} height={40} className="h-8 w-auto" priority />
         </Link>
 
         {/* Desktop Navigation */}
