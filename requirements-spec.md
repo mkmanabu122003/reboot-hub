@@ -459,7 +459,7 @@ export interface Author {
   "dateModified": "{updatedAt}",
   "author": {
     "@type": "Person",
-    "name": "Manabu",
+    "name": "Kay",
     "url": "https://reboot-hub.jp/about/",
     "sameAs": [
       "https://twitter.com/xxxxx",
@@ -478,7 +478,7 @@ export interface Author {
 ```json
 {
   "@type": "Person",
-  "name": "Manabu",
+  "name": "Kay",
   "jobTitle": "AI・ITコンサルタント",
   "knowsAbout": ["AI", "IT Consulting", "Career Development"],
   "hasCredential": {

@@ -459,7 +459,7 @@ export interface Author {
   "dateModified": "{updatedAt}",
   "author": {
     "@type": "Person",
-    "name": "Manabu",
+    "name": "Kay",
     "url": "https://reboot-hub.jp/about/",
     "sameAs": [
       "https://twitter.com/xxxxx",
@@ -478,7 +478,7 @@ export interface Author {
 ```json
 {
   "@type": "Person",
-  "name": "Manabu",
+  "name": "Kay",
   "jobTitle": "AI・ITコンサルタント",
   "knowsAbout": ["AI", "IT Consulting", "Career Development"],
   "hasCredential": {
@@ -954,7 +954,7 @@ frontmatterのaffiliates配列のurlを書き換えて git push するだけ。
 ### 指摘事項
 
 1. **ランニングコストの明示が不十分**
-   要件定義書にコスト情報がない。クライアント（＝Manabuさん自身）がいくら支出するかを明確にすべき。
+   要件定義書にコスト情報がない。クライアント（＝Kayさん自身）がいくら支出するかを明確にすべき。
 
 2. **ASP登録の優先順位がない**
    5社のASPに一度に登録するのは非効率。サイトが10記事未満で審査に落ちるASPもある。優先順位を付けるべき。
