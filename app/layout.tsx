@@ -20,11 +20,6 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
-  alternates: {
-    types: {
-      'application/rss+xml': 'https://reboot-hub.jp/feed.xml',
-    },
-  },
   verification: {
     google: 'Jr1F1jCPEU0j-IkJHBjrENm_Uj0PTLMggf0ZNGmyHNY',
   },
@@ -37,6 +32,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <link rel="alternate" type="application/rss+xml" title="Reboot Hub RSS" href="/feed.xml" />
+      </head>
       <body className="min-h-screen flex flex-col">
         <GoogleAnalytics />
         <Header />
