@@ -3,8 +3,8 @@ title: "コンサルの年収は意外と低い？知恵袋の声と手取りの
 description: "コンサルの年収は本当に低いのか。知恵袋の声をもとにBig4経験者が額面vs手取り、残業代、フリーランスとの比較を徹底解説。"
 category: "career-change"
 tags: ["コンサル", "年収", "低い", "知恵袋", "手取り"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-04-07"
+updatedAt: "2026-04-07"
 author: "Kay"
 thumbnail: "/images/articles/consul-salary-low-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-employee-vs-freelance-income", "consul-career-5patterns", "consul-agent-top5"]
+relatedSlugs: ["consul-employee-vs-freelance-income", "consul-career-5patterns", "consul-agent-top5", "kpmg-salary-chiebukuro", "deloitte-salary-chiebukuro", "accenture-salary-chiebukuro"]
+faqs:
+  - question: "コンサルの年収は意外と低いの？"
+    answer: "額面は高いですが、長時間労働を時給換算すると一般企業と変わらないケースもあります。手取りベースでの比較が重要です。"
+  - question: "コンサルの手取りはいくら？"
+    answer: "年収800万円で手取り約590-620万円、1,200万円で約850万円程度が目安です。税金・社会保険の負担は大きいです。"
 ---
 
 「コンサル 年収 低い」「コンサル 年収 思ったほど高くない」。

@@ -3,8 +3,8 @@ title: "PwCは激務？2chの口コミを元Big4出身者が読み解く"
 description: "PwCコンサルティングは本当に激務なのか。2chの口コミをBig4経験者が検証し、部門別の実態と激務の乗り越え方を解説。"
 category: "consul-real"
 tags: ["PwC", "激務", "2ch", "Big4", "コンサル"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-03-24"
+updatedAt: "2026-03-24"
 author: "Kay"
 thumbnail: "/images/articles/pwc-gekimu-2ch.webp"
 hasPR: true
@@ -17,7 +17,14 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-vs-jigyou", "consul-career-5patterns", "consul-employee-vs-freelance-income"]
+relatedSlugs: ["consul-vs-jigyou", "consul-career-5patterns", "consul-employee-vs-freelance-income", "big4-which-best-chiebukuro", "ey-reputation-chiebukuro", "baycurrent-yabai-chiebukuro"]
+faqs:
+  - question: "PwCは激務ですか？"
+    answer: "部門とプロジェクトにより大きく異なります。Strategy&は戦略ファーム級の忙しさですが、他部門は案件次第です。"
+  - question: "PwCの中で一番忙しい部門は？"
+    answer: "一般的にStrategy&が最も激務とされます。コンサルティング部門は案件による振れ幅が大きいです。"
+  - question: "PwCとDTCはどちらが激務？"
+    answer: "全社平均では大きな差はありません。部門やプロジェクト単位で比較する必要があります。"
 ---
 
 「PwC 激務」で2ch（5ch）を検索すると、なかなか強烈な投稿が出てくる。「終電なんて概念はない」「Strategy&はBig4の中でも別格」「コンサル側とアドバイザリー側で全然違う」。

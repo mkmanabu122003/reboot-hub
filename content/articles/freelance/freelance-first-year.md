@@ -13,7 +13,7 @@ affiliates:
     url: "https://www.freeconsultant.jp/"
     description: "フリーランスコンサルマッチング"
     type: "freelance"
-relatedSlugs: ["why-i-left-big4", "freelance-full-record", "consul-ai-market-value"]
+relatedSlugs: ["why-i-left-big4", "freelance-full-record", "consul-ai-market-value", "freelance-consul-salary-chiebukuro"]
 faqs:
   - question: "フリーランスコンサルの初年度の年収はどのくらい？"
     answer: "経験やスキルによりますが、Big4出身でITコンサル経験があれば月額80〜120万円の案件獲得が現実的です。初月は知人経由で50万円台からスタートするケースも多いです。"

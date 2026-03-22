@@ -40,13 +40,16 @@ export function generateMetadata({ params }: ArticlePageProps): Metadata {
   return {
     title: article.title,
     description: article.description,
+    authors: [{ name: 'Kay' }],
     openGraph: {
       title: article.title,
       description: article.description,
       url,
       type: 'article',
       siteName: SITE_NAME,
-      images: [{ url: `${SITE_URL}${article.thumbnail}` }],
+      images: [{ url: `${SITE_URL}${article.thumbnail}`, width: 1200, height: 675, alt: article.title }],
+      publishedTime: article.publishedAt,
+      modifiedTime: article.updatedAt,
     },
     twitter: {
       card: 'summary_large_image',

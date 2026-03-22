@@ -3,8 +3,8 @@ title: "デロイトの大量退職は本当？2chの噂と実態をBig4OBが解
 description: "デロイトの大量退職の噂を2ch投稿とBig4経験者の視点で検証。組織変動の背景と残る人・辞める人の違いを解説。"
 category: "consul-real"
 tags: ["デロイト", "大量退職", "2ch", "離職率", "Big4"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-03-31"
+updatedAt: "2026-03-31"
 author: "Kay"
 thumbnail: "/images/articles/deloitte-mass-quit-2ch.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-career-5patterns", "big4-assign-gacha", "consul-agent-top5"]
+relatedSlugs: ["consul-career-5patterns", "big4-assign-gacha", "consul-agent-top5", "deloitte-quit-chiebukuro", "deloitte-salary-chiebukuro"]
+faqs:
+  - question: "デロイトの大量退職は本当？"
+    answer: "2023-2024年の組織調整期に離職率が上昇したのは事実ですが、2chで語られるほど壊滅的ではありません。"
+  - question: "デロイトで辞めるのはどんな人？"
+    answer: "アサインに不満がある人、昇進が見えない人、明確なキャリアビジョンを持って動く人の3パターンが多いです。"
 ---
 
 「デロイト 大量退職」で検索すると、2ch（5ch）のスレッドが大量にヒットする。「DTCから人が流出している」「プロジェクト崩壊」「退職者が止まらない」。不穏な書き込みが並んでいる。

@@ -3,8 +3,8 @@ title: "コンサルでうつになりかけた人の知恵袋体験談｜経験
 description: "コンサルファームでうつになりかけた人の知恵袋体験談を分析。Big4経験者がメンタルヘルス対策と休職の選択肢を解説。"
 category: "consul-real"
 tags: ["コンサル", "うつ", "知恵袋", "メンタルヘルス", "休職"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-04-02"
+updatedAt: "2026-04-02"
 author: "Kay"
 thumbnail: "/images/articles/consul-depression-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-career-5patterns", "consul-agent-top5", "consul-routine-burnout"]
+relatedSlugs: ["consul-career-5patterns", "consul-agent-top5", "consul-routine-burnout", "consul-quit-chiebukuro", "consul-cant-keep-up-chiebukuro", "consul-not-suited-chiebukuro"]
+faqs:
+  - question: "コンサルでうつになる人は多い？"
+    answer: "正確な統計はありませんが、高プレッシャー環境のためメンタル不調を経験する人は少なくありません。早期の相談が重要です。"
+  - question: "コンサルでメンタル不調になったらどうすべき？"
+    answer: "まず産業医やEAP（従業員支援プログラム）に相談してください。休職制度もあります。転職は健康回復後に検討しましょう。"
 ---
 
 「コンサル うつ 知恵袋」で検索してこの記事にたどり着いた方へ。今まさに心身の限界を感じているなら、まず以下の相談窓口を知っておいてほしい。

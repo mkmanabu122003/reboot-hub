@@ -8,7 +8,7 @@ updatedAt: "2026-03-22"
 author: "Kay"
 thumbnail: "/images/articles/consul-vs-jigyou.webp"
 hasPR: false
-relatedSlugs: ["why-i-left-big4", "consul-career-5patterns"]
+relatedSlugs: ["why-i-left-big4", "consul-career-5patterns", "consul-cant-keep-up-chiebukuro", "consul-not-suited-chiebukuro"]
 ---
 
 ## 事業会社とコンサル、どっちがいいのか問題

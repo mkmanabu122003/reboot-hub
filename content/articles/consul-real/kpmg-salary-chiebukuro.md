@@ -3,8 +3,8 @@ title: "KPMGの年収は？知恵袋のリアルな声とBig4年収比較"
 description: "KPMGコンサルティングの年収を知恵袋の声とBig4経験者の実体験で検証。職位別年収とBig4比較表で徹底解説。"
 category: "consul-real"
 tags: ["KPMG", "年収", "知恵袋", "Big4", "比較"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-03-29"
+updatedAt: "2026-03-29"
 author: "Kay"
 thumbnail: "/images/articles/kpmg-salary-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-agent-top5", "consul-employee-vs-freelance-income", "big4-assign-gacha"]
+relatedSlugs: ["consul-agent-top5", "consul-employee-vs-freelance-income", "big4-assign-gacha", "deloitte-salary-chiebukuro", "accenture-salary-chiebukuro", "consul-salary-low-chiebukuro"]
+faqs:
+  - question: "KPMGの年収はBig4の中で低い？"
+    answer: "マネージャー以上ではDTC・PwCよりやや低い傾向ですが、アナリスト〜SC級では大きな差はありません。"
+  - question: "KPMGのボーナスはどのくらい？"
+    answer: "ベース給与の10-20%程度が一般的です。評価次第で変動します。"
 ---
 
 「KPMG 年収」で知恵袋を見ると、「Big4の中で一番低い」「他のBig4と大差ない」と意見が分かれている。転職を考えている人にとって、年収の実態がわからないのは不安だと思う。

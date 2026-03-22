@@ -3,8 +3,8 @@ title: "アクセンチュア中途は誰でも受かる？知恵袋の噂を元
 description: "アクセンチュアの中途採用は本当に誰でも受かるのか。知恵袋の噂をコンサル経験者がファクトチェック。面接対策まで解説。"
 category: "career-change"
 tags: ["アクセンチュア", "中途", "誰でも受かる", "知恵袋", "面接"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-03-30"
+updatedAt: "2026-03-30"
 author: "Kay"
 thumbnail: "/images/articles/accenture-mid-career-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "ai-consul-career-survival"]
+relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "ai-consul-career-survival", "accenture-yabai-chiebukuro", "accenture-salary-chiebukuro"]
+faqs:
+  - question: "アクセンチュアの中途採用は本当に受かりやすい？"
+    answer: "採用数は多いですが倍率が下がったとは限りません。ケース面接の準備は必須です。"
+  - question: "アクセンチュアの中途面接の対策は？"
+    answer: "ビヘイビアル面接（STAR形式）とケース面接が中心。過去の経験を構造的に語れる準備が重要です。"
 ---
 
 「アクセンチュア 中途 誰でも受かる」。知恵袋で検索すると、この手の投稿がいくつも出てくる。「大量採用だから簡単」「学歴不問で受かった」「面接1回で内定出た」。

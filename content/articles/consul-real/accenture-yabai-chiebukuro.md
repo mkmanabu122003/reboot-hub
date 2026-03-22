@@ -3,8 +3,8 @@ title: "「アクセンチュアはやばい」知恵袋の評判は本当？元
 description: "アクセンチュアは本当にやばいのか？知恵袋の評判を元Big4コンサルが徹底検証。激務・採用・使い捨ての噂の真相。"
 category: "consul-real"
 tags: ["アクセンチュア", "やばい", "知恵袋", "評判", "転職"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-03-23"
+updatedAt: "2026-03-23"
 author: "Kay"
 thumbnail: "/images/articles/accenture-yabai-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,14 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["big4-assign-gacha", "consul-agent-top5", "ai-consul-career-survival"]
+relatedSlugs: ["big4-assign-gacha", "consul-agent-top5", "ai-consul-career-survival", "accenture-mid-career-chiebukuro", "accenture-salary-chiebukuro"]
+faqs:
+  - question: "アクセンチュアは本当に激務？"
+    answer: "2015年のProject PRIDE以降、残業管理は厳格化されましたが、部門やプロジェクトによる差は大きいです。"
+  - question: "アクセンチュアは誰でも受かるの？"
+    answer: "採用数は多いですが、ケース面接とビヘイビアル面接が課されるため、準備不足では落ちます。"
+  - question: "アクセンチュアとBig4の違いは？"
+    answer: "アクセンチュアはテクノロジーの実装まで行う案件が多く、Big4は主にアドバイザリー寄りの文化です。"
 ---
 
 「アクセンチュア やばい」で検索すると、知恵袋や5chに大量の投稿が出てくる。「激務すぎてやばい」「誰でも受かるからやばい」「使い捨てだからやばい」。どれも不安を煽る内容ばかりだ。

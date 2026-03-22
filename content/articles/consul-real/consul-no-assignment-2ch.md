@@ -3,8 +3,8 @@ title: "コンサルでアサインされない時の知恵袋・2chの声と対
 description: "コンサルでアサインされない「アベイラブル」状態の実態と対処法。Big4経験者がキャリアへの影響と転職タイミングを解説。"
 category: "consul-real"
 tags: ["コンサル", "アサイン", "されない", "2ch", "アベイラブル"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-04-04"
+updatedAt: "2026-04-04"
 author: "Kay"
 thumbnail: "/images/articles/consul-no-assignment-2ch.webp"
 hasPR: true
@@ -18,6 +18,11 @@ affiliates:
     description: "コンサル転職支援の豊富な実績"
     type: "career"
 relatedSlugs: ["big4-assign-gacha", "consul-agent-top5", "consul-career-5patterns"]
+faqs:
+  - question: "コンサルでアサインされないとどうなる？"
+    answer: "「アベイラブル」状態が長期化すると評価に影響します。積極的に案件を取りに行く姿勢が必要です。"
+  - question: "アサインされない期間の過ごし方は？"
+    answer: "社内提案や研修参加、資格取得でスキルを磨きつつ、パートナーやマネージャーに直接アプローチすることが重要です。"
 ---
 
 「アサインされない」「ベンチが長い」「アベイラブルのまま放置されている」。

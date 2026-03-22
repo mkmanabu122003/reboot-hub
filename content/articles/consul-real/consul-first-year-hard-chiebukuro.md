@@ -3,8 +3,8 @@ title: "コンサル1年目が辛い…知恵袋の声に元Big4が本音回答"
 description: "コンサル1年目の辛さに悩む知恵袋の声をBig4経験者が分析。1年目あるある、乗り越え方、辞めるべきタイミングを本音で解説。"
 category: "consul-real"
 tags: ["コンサル", "1年目", "辛い", "知恵袋", "新人"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-04-01"
+updatedAt: "2026-04-01"
 author: "Kay"
 thumbnail: "/images/articles/consul-first-year-hard-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-vs-jigyou", "consul-agent-top5", "big4-assign-gacha"]
+relatedSlugs: ["consul-vs-jigyou", "consul-agent-top5", "big4-assign-gacha", "consul-quit-chiebukuro", "consul-cant-keep-up-chiebukuro", "consul-depression-chiebukuro"]
+faqs:
+  - question: "コンサル1年目はどのくらい辛い？"
+    answer: "中途入社の場合、最初の3-6ヶ月は「ついていけない」と感じる人がほとんどです。新卒も同様に壁にぶつかります。"
+  - question: "コンサル1年目で辞めても大丈夫？"
+    answer: "可能ですが短期離職のリスクがあります。身体に症状が出ている場合は別ですが、できれば2年は続けたいです。"
 ---
 
 「コンサル 1年目 辛い」で知恵袋を開くと、悲痛な声が並んでいる。「何もできなくて毎日怒られる」「自分だけ置いていかれている気がする」「もう辞めたい」。

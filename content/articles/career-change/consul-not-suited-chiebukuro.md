@@ -3,8 +3,8 @@ title: "「コンサル向いてない」知恵袋の声｜辞める前に確認
 description: "コンサルに向いていないと悩む人の知恵袋の声を分析。Big4経験者が向き不向きの判断基準と次のキャリアへの活かし方を解説。"
 category: "career-change"
 tags: ["コンサル", "向いてない", "知恵袋", "適性", "転職"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-04-03"
+updatedAt: "2026-04-03"
 author: "Kay"
 thumbnail: "/images/articles/consul-not-suited-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,12 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-vs-jigyou", "consul-career-5patterns", "consul-agent-top5"]
+relatedSlugs: ["consul-vs-jigyou", "consul-career-5patterns", "consul-agent-top5", "consul-quit-chiebukuro", "consul-cant-keep-up-chiebukuro", "consul-depression-chiebukuro"]
+faqs:
+  - question: "コンサルに向いていない人の特徴は？"
+    answer: "一つの課題にじっくり取り組みたい人、曖昧さへの耐性が低い人、チームワークより個人作業を好む人が合わない傾向があります。"
+  - question: "コンサルが向いていなくても経験は活きる？"
+    answer: "はい。構造化思考、プレゼン力、ドキュメンテーション力は事業会社で高く評価されます。"
 ---
 
 「コンサル 向いてない」と検索して、この記事にたどり着いたあなたへ。

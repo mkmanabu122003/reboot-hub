@@ -21,7 +21,7 @@ affiliates:
     url: "https://www.bizreach.jp/"
     description: "ハイクラス転職プラットフォーム"
     type: "career"
-relatedSlugs: ["why-i-left-big4", "consul-career-5patterns"]
+relatedSlugs: ["why-i-left-big4", "consul-career-5patterns", "accenture-mid-career-chiebukuro", "big4-which-best-chiebukuro", "deloitte-quit-chiebukuro"]
 faqs:
   - question: "コンサル出身者に総合型の転職エージェントは合わない？"
     answer: "総合型でも対応可能ですが、コンサル業界のランク構造や年収レンジを理解している特化型エージェントのほうが、的確なポジション提案を受けやすいです。"

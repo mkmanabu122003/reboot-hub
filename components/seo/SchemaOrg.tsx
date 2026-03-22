@@ -76,7 +76,7 @@ function getArticleSchema(article: Article) {
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
         { '@type': 'ListItem', position: 2, name: article.category, item: `${SITE_URL}/${article.category}/` },
-        { '@type': 'ListItem', position: 3, name: article.title },
+        { '@type': 'ListItem', position: 3, name: article.title, item: `${SITE_URL}/${article.category}/${article.slug}/` },
       ],
     },
   ];

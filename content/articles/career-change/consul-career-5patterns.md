@@ -13,7 +13,7 @@ affiliates:
     url: "https://www.jac-recruitment.jp/"
     description: "ハイクラス×コンサル特化"
     type: "career"
-relatedSlugs: ["why-i-left-big4", "freelance-first-year", "consul-agent-top5", "freelance-full-record"]
+relatedSlugs: ["why-i-left-big4", "freelance-first-year", "consul-agent-top5", "freelance-full-record", "consul-quit-chiebukuro", "consul-not-suited-chiebukuro"]
 ---
 
 ## コンサルを辞めた後、みんなどこへ行くのか

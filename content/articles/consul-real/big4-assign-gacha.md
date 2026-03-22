@@ -13,7 +13,7 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル業界特化エージェント"
     type: "career"
-relatedSlugs: ["why-i-left-big4", "consul-3year-quit", "consul-routine-burnout"]
+relatedSlugs: ["why-i-left-big4", "consul-3year-quit", "consul-routine-burnout", "consul-no-assignment-2ch", "big4-which-best-chiebukuro", "consul-quit-chiebukuro"]
 ---
 
 ## 「希望と違うプロジェクトにアサインされた」

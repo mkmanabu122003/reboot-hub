@@ -3,8 +3,8 @@ title: "ベイカレントはやばい？知恵袋の評判を業界経験者が
 description: "ベイカレントは本当にやばいのか。知恵袋の評判をBig4経験者が分析。急成長の背景とキャリアとしての妥当性を解説。"
 category: "consul-real"
 tags: ["ベイカレント", "やばい", "知恵袋", "評判", "コンサル"]
-publishedAt: "2026-03-22"
-updatedAt: "2026-03-22"
+publishedAt: "2026-04-09"
+updatedAt: "2026-04-09"
 author: "Kay"
 thumbnail: "/images/articles/baycurrent-yabai-chiebukuro.webp"
 hasPR: true
@@ -17,7 +17,7 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "consul-career-5patterns"]
+relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "consul-career-5patterns", "big4-which-best-chiebukuro", "abeam-reputation-chiebukuro", "pwc-gekimu-2ch"]
 faqs:
   - question: "ベイカレントの平均年収はどのくらい？"
     answer: "有価証券報告書によると平均年収は約1,100万円前後です。Big4の同クラスと比較しても遜色ない水準ですが、職位や部門によって差があります。"

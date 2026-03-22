@@ -17,7 +17,14 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル転職支援の豊富な実績"
     type: "career"
-relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-vs-jigyou"]
+relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-vs-jigyou", "deloitte-mass-quit-2ch", "deloitte-salary-chiebukuro"]
+faqs:
+  - question: "デロイトを辞めたい人はどのくらいいる？"
+    answer: "Big4全体で年間離職率は15〜20%程度です。DTCも同様の水準で、辞めたいと感じている人は珍しくありません。"
+  - question: "デロイトを辞めた後のキャリアは？"
+    answer: "事業会社の経営企画・DX推進、スタートアップCxO、フリーランスコンサル、他ファームへの転職が主なパターンです。"
+  - question: "デロイトを辞めるベストタイミングは？"
+    answer: "プロモーション直後、プロジェクトの切れ目、ボーナス支給後の3つが一般的に推奨されます。"
 ---
 
 「デロイト 辞めたい」で検索して、この記事にたどり着いたあなたへ。
