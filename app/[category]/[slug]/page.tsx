@@ -17,6 +17,7 @@ import NextActionBox from '@/components/article/NextActionBox';
 import RelatedArticles from '@/components/article/RelatedArticles';
 import ShareButtons from '@/components/common/ShareButtons';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import BlogmuraLink from '@/components/common/BlogmuraLink';
 
 interface ArticlePageProps {
   params: { category: string; slug: string };
@@ -158,6 +159,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </div>
           </aside>
         </div>
+
+        {/* Blogmura Link */}
+        <BlogmuraLink className="mt-8" />
 
         {/* Affiliate Cards */}
         {article.affiliates && <AffiliateCard affiliates={article.affiliates} />}
