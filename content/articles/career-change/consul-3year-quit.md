@@ -17,7 +17,7 @@ affiliates:
     url: "https://www.axc.ne.jp/"
     description: "コンサル業界特化エージェント"
     type: "career"
-relatedSlugs: ["why-i-left-big4", "post-consul-no-brand", "consul-career-5patterns"]
+relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-agent-recommendation"]
 ---
 
 ## 「3年は続けろ」は本当か
@@ -213,3 +213,5 @@ relatedSlugs: ["why-i-left-big4", "post-consul-no-brand", "consul-career-5patter
 僕は約2年半で辞めた。早かったかどうかは今でもわからないが、辞めた判断自体は間違っていなかったと思っている。あのまま「とりあえず3年」で残っていたら、同期のようにバーンアウトしていたかもしれない。
 
 迷っているなら、まずは3ヶ月アクションプランの「月1」から始めてほしい。辞める理由を10個書き出すだけで、自分の本音が見えてくるはずだ。
+
+辞めた後の具体的なキャリアパスは[辞めた後のキャリア5パターン](/career-change/consul-career-5patterns/)で整理している。フリーランスという選択肢に興味がある人は[フリーランス1年目のリアル](/freelance/freelance-first-year/)を、転職エージェントの選び方は[コンサル向け転職エージェントの選び方](/career-change/consul-agent-recommendation/)を参考にしてほしい。

@@ -259,3 +259,5 @@ relatedSlugs: ["consul-3year-quit", "post-consul-no-brand", "freelance-consul-in
 コンサルを辞めること自体は悪い選択ではない。[3年以内に辞めるリアル](/career-change/consul-3year-quit/)にも書いた通り、Big4の3年以内離職率は50〜60%だ。問題は「どう辞めるか」だ。
 
 年収を維持したいなら、最低3ヶ月の準備期間を取ってほしい。このプロセスを踏むだけで、年収の着地点は数十万〜百万円変わる。まずは「希望年収の下限を決める」から始めてみてほしい。
+
+フリーランスという選択肢で年収アップを目指す人は[フリーコンサルの年収のリアル](/freelance/freelance-consul-income-reality/)や[フリーコンサル向けエージェント比較](/freelance/freelance-consul-agent-comparison/)も参考になるはずだ。
