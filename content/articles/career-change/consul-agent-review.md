@@ -17,7 +17,7 @@ affiliates:
     url: "https://www.jac-recruitment.jp/"
     description: "ハイクラス転職に特化。年収800万以上の求人が豊富。"
     type: "career"
-relatedSlugs: ["consul-agent-top5", "big4-quit-story"]
+relatedSlugs: ["consul-agent-top5", "consul-agent-recommendation", "consul-career-5patterns"]
 ---
 
 ## Big4在職中にエージェント3社と面談した理由

@@ -156,4 +156,4 @@ faqs:
 
 [コンサル出身者が本当に使うべき転職エージェント5選](/career-change/consul-agent-top5/)
 
-コンサルを辞めた後のキャリアパスの全体像は[コンサル出身者のキャリア5パターン](/career-change/consul-career-5patterns/)で解説している。アクセンチュアへの転職だけでなく、その先のキャリアまで含めて考えることをおすすめする。
+コンサルを辞めた後のキャリアパスの全体像は[コンサル出身者のキャリア5パターン](/career-change/consul-career-5patterns/)で、退職後の年収は[ポストコンサル年収リアル](/career-change/post-consul-salary-reality/)で解説している。アクセンチュアへの転職だけでなく、その先のキャリアまで含めて考えることをおすすめする。
