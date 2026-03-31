@@ -8,21 +8,19 @@ updatedAt: "2026-04-04"
 author: "Kay"
 thumbnail: "/images/articles/consul-no-assignment-2ch.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["big4-assign-gacha", "consul-agent-top5", "consul-career-5patterns"]
 faqs:
   - question: "コンサルでアサインされないとどうなる？"
     answer: "「アベイラブル」状態が長期化すると評価に影響します。積極的に案件を取りに行く姿勢が必要です。"
   - question: "アサインされない期間の過ごし方は？"
     answer: "社内提案や研修参加、資格取得でスキルを磨きつつ、パートナーやマネージャーに直接アプローチすることが重要です。"
+  - question: "アサインされない期間はどのくらいが普通？"
+    answer: "PJ間の2〜3週間は普通です。2ヶ月以上継続する場合は問題のサインなので、積極的に動く必要があります。"
+  - question: "アサインされないと評価は下がる？"
+    answer: "多くのファームではPJ実績がないと評価材料が不足し、昇進判定で不利になります。長期ベンチは避けるべきです。"
+  - question: "アサインされない原因で多いのは？"
+    answer: "スキルと案件のミスマッチ、社内認知度の低さ、前PJでの低評価の3つが主な原因です。"
 ---
 
 「アサインされない」「ベンチが長い」「アベイラブルのまま放置されている」。

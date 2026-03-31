@@ -8,15 +8,7 @@ updatedAt: "2026-04-08"
 author: "Kay"
 thumbnail: "/images/articles/freelance-consul-salary-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["freelance-first-year", "consul-employee-vs-freelance-income", "freelance-consul-agent-comparison"]
 faqs:
   - question: "フリーランスコンサルの年収は会社員の何倍？"
@@ -25,6 +17,10 @@ faqs:
     answer: "ITコンサル・PMO領域で月額80〜150万円、戦略系で月額120〜200万円が一般的な相場です。経験年数やスキルによって大きく変動します。"
   - question: "フリーランスコンサルになるリスクは？"
     answer: "案件の空白期間、社会保険の自己負担、信用力の低下（住宅ローンなど）が主なリスクです。最低6ヶ月分の生活防衛資金を確保してから独立するのが安全です。"
+  - question: "フリーランスコンサルの年収計算で注意すべき点は？"
+    answer: "月単価×12ではなく×10で見積もるのが現実的です。年間1〜2ヶ月の案件空白期間が発生するのが一般的です。"
+  - question: "フリーランスコンサルの案件獲得方法は？"
+    answer: "エージェント経由が最も一般的です。人脈紹介も有効ですが、安定した案件供給にはエージェントの併用が現実的です。"
 ---
 
 「フリーランスコンサル 年収」で検索すると、知恵袋には夢のような数字と厳しい現実が混在している。「月150万は余裕」「手取りは会社員時代と変わらなかった」。どちらもウソではないが、どちらも一面的だ。

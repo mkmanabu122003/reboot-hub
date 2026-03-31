@@ -8,21 +8,19 @@ updatedAt: "2026-03-29"
 author: "Kay"
 thumbnail: "/images/articles/kpmg-salary-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-agent-top5", "consul-employee-vs-freelance-income", "big4-assign-gacha", "deloitte-salary-chiebukuro", "accenture-salary-chiebukuro", "consul-salary-low-chiebukuro"]
 faqs:
   - question: "KPMGの年収はBig4の中で低い？"
     answer: "マネージャー以上ではDTC・PwCよりやや低い傾向ですが、アナリスト〜SC級では大きな差はありません。"
   - question: "KPMGのボーナスはどのくらい？"
     answer: "ベース給与の10-20%程度が一般的です。評価次第で変動します。"
+  - question: "KPMGとDTCの年収差はどのくらい？"
+    answer: "同じ職位で50〜200万円程度DTCが高い傾向ですが、個人評価次第で逆転するケースもあります。"
+  - question: "KPMGで年収が大きく上がるタイミングは？"
+    answer: "マネージャー昇進時に年収が大きく跳ねます。コンサルタントまでは我慢の時期と言えます。"
+  - question: "KPMGは規模が小さいデメリットはある？"
+    answer: "案件の選択肢はBig4最大手より限られますが、若手でも経営層と直接やり取りできる機会が多いメリットがあります。"
 ---
 
 「KPMG 年収」で知恵袋を見ると、「Big4の中で一番低い」「他のBig4と大差ない」と意見が分かれている。転職を考えている人にとって、年収の実態がわからないのは不安だと思う。

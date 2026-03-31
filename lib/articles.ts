@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { Article, ArticleFrontmatter } from './types';
 import { CATEGORIES } from './constants';
+import { resolveAffiliates } from './affiliates';
 
 const articlesDirectory = path.join(process.cwd(), 'content/articles');
 
@@ -33,6 +34,7 @@ export function getArticles(): Article[] {
         slug,
         content,
         readingTime: calculateReadingTime(content),
+        affiliates: frontmatter.affiliateKeys ? resolveAffiliates(frontmatter.affiliateKeys) : undefined,
       });
     }
   }
@@ -59,6 +61,7 @@ export function getArticleBySlug(category: string, slug: string): Article | null
     slug,
     content,
     readingTime: calculateReadingTime(content),
+    affiliates: frontmatter.affiliateKeys ? resolveAffiliates(frontmatter.affiliateKeys) : undefined,
   };
 }
 

@@ -8,15 +8,7 @@ updatedAt: "2026-03-10"
 author: "Kay"
 thumbnail: "/images/articles/consul-agent-review.webp"
 hasPR: true
-affiliates:
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル業界特化の転職エージェント。Big4出身者のキャリアチェンジに強み。"
-    type: "career"
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス転職に特化。年収800万以上の求人が豊富。"
-    type: "career"
+affiliateKeys: ["axc", "jac", "concord"]
 relatedSlugs: ["consul-agent-top5", "consul-agent-recommendation", "consul-career-5patterns"]
 ---
 

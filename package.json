@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/submit-indexing.mjs",
     "start": "next start",
     "lint": "next lint",
     "generate-images": "npx tsx scripts/generate-images.ts",

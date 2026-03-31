@@ -8,15 +8,7 @@ updatedAt: "2026-03-31"
 author: "Kay"
 thumbnail: "/images/articles/consul-overtime-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-career-5patterns", "consul-depression-chiebukuro", "consul-quit-chiebukuro"]
 faqs:
   - question: "コンサルの平均残業時間は月何時間？"

@@ -8,21 +8,19 @@ updatedAt: "2026-04-06"
 author: "Kay"
 thumbnail: "/images/articles/accenture-salary-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-employee-vs-freelance-income", "consul-agent-top5", "consul-vs-jigyou", "accenture-yabai-chiebukuro", "accenture-mid-career-chiebukuro", "kpmg-salary-chiebukuro"]
 faqs:
   - question: "アクセンチュアの年収はBig4と比べてどう？"
     answer: "レベル10（コンサルタント）以下ではBig4と同程度、マネージャー以上ではBig4より若干高い傾向があります。"
   - question: "アクセンチュアで年収を上げるには？"
     answer: "社内昇進（レベルアップ）が基本ですが、転職やフリーランス転向も有力な選択肢です。"
+  - question: "アクセンチュアの中途入社の年収はどう決まる？"
+    answer: "前職の年収がベースになります。同じレベルでも新卒プロパーと中途で100万円以上差が出ることがあります。"
+  - question: "アクセンチュアのマネージャー昇進で年収は上がる？"
+    answer: "額面は上がりますが、残業代がなくなるため手取りベースでは横ばいに感じる人もいます。"
+  - question: "アクセンチュアの部門による年収差はどのくらい？"
+    answer: "戦略部門が最も高く、オペレーションズが相対的に低い傾向です。同じレベルでも部門間で100〜200万円の差があります。"
 ---
 
 「アクセンチュア 年収」は、知恵袋でも2chでも常に検索上位に入るテーマだ。「レベル7で550万」「マネージャーで1,200万」「残業規制で年収が下がった」。さまざまな情報が飛び交っているが、どこまで信用していいのか。

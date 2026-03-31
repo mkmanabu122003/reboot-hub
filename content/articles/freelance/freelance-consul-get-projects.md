@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/freelance-consul-get-projects.webp"
 hasPR: true
-affiliates:
-  - name: "フリーコンサルタント.jp"
-    url: "https://www.freeconsultant.jp/"
-    description: "フリーランスコンサルマッチング"
-    type: "freelance"
+affiliateKeys: ["freeconsultant"]
 relatedSlugs: ["freelance-consul-agent-comparison", "freelance-consul-income-reality", "freelance-consul-first-6months"]
 faqs:
   - question: "フリーランスコンサルの案件獲得で最も確実なチャネルは？"

@@ -8,15 +8,7 @@ updatedAt: "2026-03-31"
 author: "Kay"
 thumbnail: "/images/articles/abeam-salary-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["abeam-reputation-chiebukuro", "post-consul-salary-reality", "consul-career-5patterns"]
 faqs:
   - question: "アビームの新卒年収は？"

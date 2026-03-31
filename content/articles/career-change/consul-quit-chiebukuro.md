@@ -8,15 +8,7 @@ updatedAt: "2026-03-26"
 author: "Kay"
 thumbnail: "/images/articles/consul-quit-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-ai-market-value", "consul-cant-keep-up-chiebukuro", "consul-not-suited-chiebukuro", "consul-depression-chiebukuro"]
 faqs:
   - question: "コンサルを辞めたいと思うのは甘え？"
@@ -25,6 +17,10 @@ faqs:
     answer: "プロモーション直後、プロジェクト切れ目、ボーナス支給後が一般的です。年度初め（4-6月）は求人も増えます。"
   - question: "コンサルを辞めた後の年収は下がる？"
     answer: "事業会社ではやや下がるケースが多いですが、フリーランスなら手取りベースで1.2-1.5倍になることもあります。"
+  - question: "コンサルを辞めたい時にまずやるべきことは？"
+    answer: "転職エージェントに登録して市場価値を確認することです。辞める前に選択肢を把握しておくと冷静に判断できます。"
+  - question: "コンサルは何年目で辞める人が多い？"
+    answer: "2〜3年目が最も多いです。1つ以上のプロジェクトを完遂し、市場価値が高いタイミングで動く人が多い傾向です。"
 ---
 
 「コンサル 辞めたい」で知恵袋を開いて、同じ気持ちの人を探していないだろうか。

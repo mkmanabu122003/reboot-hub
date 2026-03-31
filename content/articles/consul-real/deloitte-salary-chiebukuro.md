@@ -8,21 +8,19 @@ updatedAt: "2026-04-05"
 author: "Kay"
 thumbnail: "/images/articles/deloitte-salary-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-employee-vs-freelance-income", "consul-agent-top5", "big4-assign-gacha", "deloitte-quit-chiebukuro", "deloitte-mass-quit-2ch", "kpmg-salary-chiebukuro"]
 faqs:
   - question: "デロイトの年収は高い？"
     answer: "Big4の中では中位〜上位です。マネージャーで1,000-1,400万円、シニアマネージャーで1,400-1,800万円が目安です。"
   - question: "デロイトの年収は残業代込み？"
     answer: "マネージャー未満は残業代が支給されます。知恵袋の年収情報を見る際は残業代込みかどうかを確認する必要があります。"
+  - question: "デロイトのマネージャー昇進で年収は上がる？"
+    answer: "額面は上がりますが残業代がなくなるため、SC時代と手取りが変わらないと感じる人もいます。"
+  - question: "デロイトの部門によって年収は違う？"
+    answer: "はい。ストラテジー、テクノロジー、M&Aなどユニットによってボーナスや評価基準が異なり、同じ職位でも差が出ます。"
+  - question: "デロイトの給与テーブルは改定される？"
+    answer: "数年単位で見直されます。近年はコンサル業界全体の採用競争で給与水準が上昇傾向にあります。"
 ---
 
 「デロイト 年収」で検索すると、知恵袋にはさまざまな数字が飛び交っている。「マネージャーで1,200万」「シニアコンサルタントで800万」「残業代込みで1,000万超えた」。

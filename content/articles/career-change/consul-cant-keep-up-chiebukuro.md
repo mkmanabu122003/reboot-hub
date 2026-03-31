@@ -8,15 +8,7 @@ updatedAt: "2026-03-27"
 author: "Kay"
 thumbnail: "/images/articles/consul-cant-keep-up-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-vs-jigyou", "big4-assign-gacha", "consul-agent-top5", "consul-quit-chiebukuro", "consul-not-suited-chiebukuro", "consul-depression-chiebukuro"]
 faqs:
   - question: "コンサルについていけないのは能力不足？"
@@ -25,6 +17,10 @@ faqs:
     answer: "最低半年は様子を見ましょう。1年経っても改善の兆しがない場合は、環境を変えることも選択肢です。"
   - question: "コンサル1年未満で辞めても転職できる？"
     answer: "可能ですが、短期離職はマイナス要因になります。できれば2年は続けたいところです。"
+  - question: "コンサルについていけない時、最初に鍛えるべきスキルは？"
+    answer: "議事録の構造化、資料のメッセージライン作成、会議での論点整理の3つを集中的に練習するのが効果的です。"
+  - question: "中途入社でコンサルについていけないのは自分だけ？"
+    answer: "中途入社の8割が最初の半年で同じ悩みを経験します。スキル転換に時間がかかっているだけの場合がほとんどです。"
 ---
 
 「コンサル ついていけない」で知恵袋を検索して、この記事にたどり着いたあなたへ。まず伝えたいことがある。

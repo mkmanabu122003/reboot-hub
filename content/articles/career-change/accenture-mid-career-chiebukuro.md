@@ -8,21 +8,19 @@ updatedAt: "2026-03-30"
 author: "Kay"
 thumbnail: "/images/articles/accenture-mid-career-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "ai-consul-career-survival", "accenture-yabai-chiebukuro", "accenture-salary-chiebukuro"]
 faqs:
   - question: "アクセンチュアの中途採用は本当に受かりやすい？"
     answer: "採用数は多いですが倍率が下がったとは限りません。ケース面接の準備は必須です。"
   - question: "アクセンチュアの中途面接の対策は？"
     answer: "ビヘイビアル面接（STAR形式）とケース面接が中心。過去の経験を構造的に語れる準備が重要です。"
+  - question: "アクセンチュアの中途入社後に苦労するポイントは？"
+    answer: "資料作成のスピードと質、議事録の取り方、Up or Outのプレッシャーに慣れるまでが特に大変です。"
+  - question: "アクセンチュアはケース面接なしで受かる？"
+    answer: "テクノロジー系やオペレーションズ系のポジションではケース面接がない選考ルートもありますが、ビヘイビアル面接は厳しいです。"
+  - question: "アクセンチュアの中途採用で学歴は重要？"
+    answer: "学歴フィルターは比較的緩いですが、その分、職務経歴やスキルを厳しく評価されます。実務経験が重視されます。"
 ---
 
 「アクセンチュア 中途 誰でも受かる」。知恵袋で検索すると、この手の投稿がいくつも出てくる。「大量採用だから簡単」「学歴不問で受かった」「面接1回で内定出た」。

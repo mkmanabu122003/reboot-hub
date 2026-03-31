@@ -8,15 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/post-consul-salary-reality.webp"
 hasPR: true
-affiliates:
-  - name: "ビズリーチ"
-    url: "https://www.bizreach.jp/"
-    description: "ハイクラス転職プラットフォーム"
-    type: "career"
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
+affiliateKeys: ["bizreach", "jac", "concord"]
 relatedSlugs: ["consul-3year-quit", "post-consul-no-brand", "freelance-consul-income-reality", "consul-agent-recommendation"]
 ---
 

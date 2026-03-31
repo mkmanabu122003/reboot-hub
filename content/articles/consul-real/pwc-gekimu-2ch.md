@@ -8,15 +8,7 @@ updatedAt: "2026-03-24"
 author: "Kay"
 thumbnail: "/images/articles/pwc-gekimu-2ch.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-vs-jigyou", "consul-career-5patterns", "consul-employee-vs-freelance-income", "big4-which-best-chiebukuro", "ey-reputation-chiebukuro", "baycurrent-yabai-chiebukuro"]
 faqs:
   - question: "PwCは激務ですか？"
@@ -25,6 +17,10 @@ faqs:
     answer: "一般的にStrategy&が最も激務とされます。コンサルティング部門は案件による振れ幅が大きいです。"
   - question: "PwCとDTCはどちらが激務？"
     answer: "全社平均では大きな差はありません。部門やプロジェクト単位で比較する必要があります。"
+  - question: "PwCのグローバル案件は激務になりやすい？"
+    answer: "はい。海外チームとの時差対応で深夜コールが日常化するケースがあり、体力的な負担が大きくなります。"
+  - question: "PwCで激務を避けるにはどうすればいい？"
+    answer: "アサイン希望を明確に伝え、運用保守フェーズの案件やWLB重視の部門を選ぶことである程度コントロール可能です。"
 ---
 
 「PwC 激務」で2ch（5ch）を検索すると、なかなか強烈な投稿が出てくる。「終電なんて概念はない」「Strategy&はBig4の中でも別格」「コンサル側とアドバイザリー側で全然違う」。

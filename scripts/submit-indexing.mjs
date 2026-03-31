@@ -17,6 +17,12 @@ const PROJECT_ROOT = path.resolve(__dirname, '..');
 const SITE_URL = 'https://reboot-hub.jp';
 const SERVICE_ACCOUNT_PATH = path.join(PROJECT_ROOT, 'service-account.json');
 
+// ─── CI/CD Support: Generate service-account.json from env var ───
+if (!fs.existsSync(SERVICE_ACCOUNT_PATH) && process.env.GOOGLE_SERVICE_ACCOUNT_JSON) {
+  fs.writeFileSync(SERVICE_ACCOUNT_PATH, process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
+  console.log('  ℹ️  Generated service-account.json from GOOGLE_SERVICE_ACCOUNT_JSON env var');
+}
+
 // ─── URL Collection ───
 
 function getUrlsFromSitemap() {

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Affiliate } from '@/lib/types';
 
 interface AffiliateCardProps {
@@ -16,13 +17,22 @@ const AffiliateCard: React.FC<AffiliateCardProps> = ({ affiliates }) => {
         {affiliates.map((affiliate) => (
           <div
             key={affiliate.name}
-            className="flex flex-col sm:flex-row items-start gap-5 bg-white rounded-xl border border-border p-5 hover:shadow-md transition-shadow"
+            className="relative flex flex-col sm:flex-row items-start gap-5 bg-white rounded-xl border border-border p-5 hover:shadow-md transition-shadow"
           >
-            {/* Icon placeholder */}
-            <div className="w-[140px] h-[100px] sm:w-[160px] sm:h-[110px] rounded-lg bg-bg-secondary flex-shrink-0 flex items-center justify-center">
-              <svg className="w-10 h-10 text-text-muted/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.193 23.193 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
+            <div className="w-[140px] h-[100px] sm:w-[160px] sm:h-[110px] rounded-lg bg-bg-secondary flex-shrink-0 flex items-center justify-center overflow-hidden">
+              {affiliate.logo ? (
+                <Image
+                  src={affiliate.logo}
+                  alt={affiliate.name}
+                  width={160}
+                  height={110}
+                  className="object-contain p-3"
+                />
+              ) : (
+                <svg className="w-10 h-10 text-text-muted/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 13.255A23.193 23.193 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              )}
             </div>
             <div className="flex-1">
               <h4 className="font-bold text-text text-lg">{affiliate.name}</h4>
@@ -38,6 +48,9 @@ const AffiliateCard: React.FC<AffiliateCardProps> = ({ affiliates }) => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
+              {affiliate.impressionPixel && (
+                <img src={affiliate.impressionPixel} width={1} height={1} alt="" aria-hidden="true" className="absolute bottom-0 left-0" style={{ border: 0 }} />
+              )}
             </div>
           </div>
         ))}

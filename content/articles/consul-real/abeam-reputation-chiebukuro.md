@@ -8,15 +8,7 @@ updatedAt: "2026-04-10"
 author: "Kay"
 thumbnail: "/images/articles/abeam-reputation-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-agent-top5", "consul-vs-jigyou", "consul-career-5patterns", "big4-which-best-chiebukuro", "ey-reputation-chiebukuro", "baycurrent-yabai-chiebukuro"]
 faqs:
   - question: "アビームの年収はBig4と比べてどう？"
@@ -25,6 +17,10 @@ faqs:
     answer: "あります。経営戦略、業務改革、デジタルトランスフォーメーション、Oracle、Salesforceなど幅広い領域をカバーしています。ただし、SAP関連の案件比率が高いのは事実です。"
   - question: "アビームからの転職先で多いのは？"
     answer: "SAP経験を活かした事業会社のIT部門、他コンサルファーム、SaaS企業が多いです。SAP人材は市場価値が高いため、転職では有利に働きます。"
+  - question: "アビームはBig4の滑り止めなの？"
+    answer: "ブランド力ではBig4が上ですが、日本市場特化の強み、SAP専門性、WLBの良さなど、優先事項次第でベストな選択肢になり得ます。"
+  - question: "アビームのワークライフバランスは本当にいい？"
+    answer: "Big4と比べると残業が少なく有給も取りやすい傾向です。ただしPJ次第で忙しくなることもあり、楽とは限りません。"
 ---
 
 「アビーム 評判」で知恵袋を検索すると、Big4やアクセンチュアと比較した投稿が多い。「Big4には入れなかったけどアビームはどう？」「SAP案件ばかりでスキルが偏るのでは？」「ワークライフバランスはいいらしい」。

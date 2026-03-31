@@ -8,15 +8,7 @@ updatedAt: "2026-03-28"
 author: "Kay"
 thumbnail: "/images/articles/big4-which-best-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["big4-assign-gacha", "consul-agent-top5", "bilingual-big4-pros-cons", "ey-reputation-chiebukuro", "pwc-gekimu-2ch", "baycurrent-yabai-chiebukuro"]
 faqs:
   - question: "Big4で一番年収が高いのはどこ？"
@@ -25,6 +17,10 @@ faqs:
     answer: "傾向としてはEYSCとKPMGが比較的WLBが良いとされますが、プロジェクト次第でどのファームも変動します。"
   - question: "Big4の選び方のポイントは？"
     answer: "年収・WLB・業界専門性・グローバル志向・裁量の大きさの5軸で優先順位をつけて選ぶことを推奨します。"
+  - question: "Big4で中途入社しやすいのはどこ？"
+    answer: "DTCとアクセンチュアが採用数では最多ですが、倍率が低いとは限りません。KPMGやEYSCは少数精鋭の傾向があります。"
+  - question: "Big4の年収差は転職先選びを左右するほど大きい？"
+    answer: "同じ職位で100〜200万円程度の差です。年収差よりもアサインされる案件や身につくスキルの方が長期的には重要です。"
 ---
 
 「Big4 どこがいい」で知恵袋を見ると、「DTCが一番」「いやPwCのほうが」「穴場はKPMG」と、意見がバラバラだ。しかもその多くが、入社前の推測や伝聞で書かれている。

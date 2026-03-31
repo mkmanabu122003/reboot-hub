@@ -8,11 +8,7 @@ updatedAt: "2026-03-17"
 author: "Kay"
 thumbnail: "/images/articles/why-i-left-big4.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化の転職エージェント"
-    type: "career"
+affiliateKeys: ["jac"]
 relatedSlugs: ["consul-vs-jigyou", "freelance-first-year", "consul-agent-top5"]
 ---
 

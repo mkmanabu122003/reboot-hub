@@ -8,15 +8,7 @@ updatedAt: "2026-04-09"
 author: "Kay"
 thumbnail: "/images/articles/baycurrent-yabai-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "consul-career-5patterns", "big4-which-best-chiebukuro", "abeam-reputation-chiebukuro", "pwc-gekimu-2ch"]
 faqs:
   - question: "ベイカレントの平均年収はどのくらい？"
@@ -25,6 +17,10 @@ faqs:
     answer: "ベイカレントは日系ファームでワンプール制を採用しており、戦略からIT実装まで幅広い案件にアサインされます。Big4はグローバルネットワークやブランド力に強みがあります。"
   - question: "ベイカレントからの転職先はどこが多い？"
     answer: "IT系事業会社、スタートアップ、他コンサルファームが主な転職先です。近年はDX人材としての評価が高く、事業会社のDX推進部門への転職が増えています。"
+  - question: "ベイカレントのワンプール制のメリット・デメリットは？"
+    answer: "メリットは短期間で多様な経験を積めること。デメリットはキャリアの方向性と合わないPJにアサインされるリスクがあることです。"
+  - question: "ベイカレントに向いているのはどんな人？"
+    answer: "幅広い経験を積みたい人、戦略からIT実装まで一気通貫で関わりたい人、日系ファームのスピード感を好む人に向いています。"
 ---
 
 「ベイカレント やばい」で知恵袋を検索すると、肯定と否定が入り乱れた投稿が大量に出てくる。「急成長しすぎてやばい」「年収が高すぎてやばい」「中身がないのにやばい」。どの「やばい」も、書き手の立場次第でまったく違う意味を持っている。

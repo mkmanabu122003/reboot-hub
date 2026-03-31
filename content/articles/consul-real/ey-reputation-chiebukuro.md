@@ -8,15 +8,7 @@ updatedAt: "2026-03-25"
 author: "Kay"
 thumbnail: "/images/articles/ey-reputation-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-agent-top5", "big4-assign-gacha", "bilingual-big4-pros-cons", "big4-which-best-chiebukuro", "pwc-gekimu-2ch", "abeam-reputation-chiebukuro"]
 faqs:
   - question: "EYはBig4の中でどういう位置づけ？"
@@ -25,6 +17,10 @@ faqs:
     answer: "マネージャー以上でDTC・PwCとやや差が開く傾向ですが、アナリスト〜SC級では大きな差はありません。"
   - question: "EYに入るメリットは？"
     answer: "トランザクション経験、グローバルモビリティの充実、比較的良好なWLBが主なメリットです。"
+  - question: "EYからの転職先として多いのは？"
+    answer: "事業会社の経営企画・M&A部門、PEファンド、他Big4への転職が主なキャリアパスです。"
+  - question: "EYの中途採用の難易度は？"
+    answer: "Big4の中では比較的門戸が広いとされますが、ケース面接と英語面接は課されるため準備は必須です。"
 ---
 
 Big4の中でEYは「情報が少ない」とよく言われる。DTC、PwC、KPMGと比べて、知恵袋やOpenWorkの口コミ数自体が少なく、転職検討者にとっては「よくわからないファーム」というポジションになりがちだ。

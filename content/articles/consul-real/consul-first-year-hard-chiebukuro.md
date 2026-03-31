@@ -8,21 +8,19 @@ updatedAt: "2026-04-01"
 author: "Kay"
 thumbnail: "/images/articles/consul-first-year-hard-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-vs-jigyou", "consul-agent-top5", "big4-assign-gacha", "consul-quit-chiebukuro", "consul-cant-keep-up-chiebukuro", "consul-depression-chiebukuro"]
 faqs:
   - question: "コンサル1年目はどのくらい辛い？"
     answer: "中途入社の場合、最初の3-6ヶ月は「ついていけない」と感じる人がほとんどです。新卒も同様に壁にぶつかります。"
   - question: "コンサル1年目で辞めても大丈夫？"
     answer: "可能ですが短期離職のリスクがあります。身体に症状が出ている場合は別ですが、できれば2年は続けたいです。"
+  - question: "コンサル1年目の辛さはいつ楽になる？"
+    answer: "3ヶ月で資料の質が変わり、半年でレビュー指摘が減り、1年で後輩に教えられるレベルになるのが一般的です。"
+  - question: "コンサル1年目で同期と差がつくのは普通？"
+    answer: "アサインされるプロジェクトで求められるスキルが異なるため、同期比較は意味がありません。評価軸が違います。"
+  - question: "コンサル1年目で身につけるべきスキルは？"
+    answer: "資料作成力、議事録スキル、業界用語の理解が最優先です。最初の3ヶ月は成果よりも「生存」を目標にしましょう。"
 ---
 
 「コンサル 1年目 辛い」で知恵袋を開くと、悲痛な声が並んでいる。「何もできなくて毎日怒られる」「自分だけ置いていかれている気がする」「もう辞めたい」。

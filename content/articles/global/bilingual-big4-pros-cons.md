@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/bilingual-big4-pros-cons.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
+affiliateKeys: ["jac"]
 relatedSlugs: ["big4-assign-gacha", "it-consul-vs-se-difference", "why-i-left-big4"]
 ---
 

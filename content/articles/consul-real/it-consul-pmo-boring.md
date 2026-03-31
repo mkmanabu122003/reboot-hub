@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/it-consul-pmo-boring.webp"
 hasPR: true
-affiliates:
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル業界特化エージェント"
-    type: "career"
+affiliateKeys: ["axc"]
 relatedSlugs: ["big4-assign-gacha", "consul-3year-quit", "it-consul-vs-se-difference"]
 ---
 

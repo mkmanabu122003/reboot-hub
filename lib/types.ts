@@ -10,7 +10,7 @@ export interface ArticleFrontmatter {
   author: string;
   thumbnail: string;
   hasPR: boolean;
-  affiliates?: Affiliate[];
+  affiliateKeys?: string[];
   relatedSlugs?: string[];
   productSlug?: string;
   faqs?: FAQ[];
@@ -26,12 +26,15 @@ export interface Affiliate {
   url: string;
   description: string;
   type: 'career' | 'freelance' | 'ai' | 'english' | 'accounting';
+  logo?: string;
+  impressionPixel?: string;
 }
 
 export interface Article extends ArticleFrontmatter {
   slug: string;
   content: string;
   readingTime: number;
+  affiliates?: Affiliate[];
 }
 
 export interface ProductFrontmatter {

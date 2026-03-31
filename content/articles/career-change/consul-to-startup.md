@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/consul-to-startup.webp"
 hasPR: true
-affiliates:
-  - name: "ビズリーチ"
-    url: "https://www.bizreach.jp/"
-    description: "ハイクラス転職プラットフォーム"
-    type: "career"
+affiliateKeys: ["bizreach", "concord"]
 relatedSlugs: ["post-consul-salary-reality", "consul-skills-reality", "consul-agent-recommendation"]
 ---
 

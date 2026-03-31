@@ -8,11 +8,7 @@ updatedAt: "2026-03-30"
 author: "Kay"
 thumbnail: "/images/articles/foreign-consul-english-level.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
+affiliateKeys: ["jac"]
 relatedSlugs: ["foreign-consul-english-level", "bilingual-big4-pros-cons", "consul-career-5patterns"]
 faqs:
   - question: "外資コンサルに英語力がないと入社できない？"

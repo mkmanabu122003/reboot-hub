@@ -8,21 +8,19 @@ updatedAt: "2026-04-03"
 author: "Kay"
 thumbnail: "/images/articles/consul-not-suited-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-vs-jigyou", "consul-career-5patterns", "consul-agent-top5", "consul-quit-chiebukuro", "consul-cant-keep-up-chiebukuro", "consul-depression-chiebukuro"]
 faqs:
   - question: "コンサルに向いていない人の特徴は？"
     answer: "一つの課題にじっくり取り組みたい人、曖昧さへの耐性が低い人、チームワークより個人作業を好む人が合わない傾向があります。"
   - question: "コンサルが向いていなくても経験は活きる？"
     answer: "はい。構造化思考、プレゼン力、ドキュメンテーション力は事業会社で高く評価されます。"
+  - question: "コンサルの向き不向きは何年で判断すべき？"
+    answer: "最低1年は経験すべきです。入社半年以内の判断は早すぎる場合が多く、環境要因と適性を混同しがちです。"
+  - question: "コンサルが向いていない場合の転職先は？"
+    answer: "事業会社の経営企画・事業開発が定番です。コンサルで培った思考力やドキュメント力が高く評価されます。"
+  - question: "環境が合わないだけか適性の問題か、どう見分ける？"
+    answer: "PJや上司が変わっても同じ悩みが続くなら適性の問題です。特定のPJだけで辛い場合は環境要因の可能性が高いです。"
 ---
 
 「コンサル 向いてない」と検索して、この記事にたどり着いたあなたへ。

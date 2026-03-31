@@ -59,6 +59,9 @@ function getArticleSchema(article: Article) {
       image: `${SITE_URL}${article.thumbnail}`,
       datePublished: article.publishedAt,
       dateModified: article.updatedAt,
+      wordCount: article.content.replace(/[#*\-|>\n]/g, '').length,
+      articleSection: article.category,
+      inLanguage: 'ja',
       author: {
         '@type': 'Person',
         name: AUTHOR.name,
@@ -68,6 +71,10 @@ function getArticleSchema(article: Article) {
         '@type': 'Organization',
         name: SITE_NAME,
         url: SITE_URL,
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/${article.category}/${article.slug}/`,
       },
     },
     {

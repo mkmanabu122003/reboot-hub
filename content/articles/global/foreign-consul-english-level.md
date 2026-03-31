@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/foreign-consul-english-level.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
+affiliateKeys: ["jac"]
 relatedSlugs: ["bilingual-big4-pros-cons", "it-consul-vs-se-difference", "consul-agent-recommendation"]
 ---
 

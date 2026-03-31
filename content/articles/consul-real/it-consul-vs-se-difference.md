@@ -8,15 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/it-consul-vs-se-difference.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
-  - name: "ビズリーチ"
-    url: "https://www.bizreach.jp/"
-    description: "ハイクラス転職プラットフォーム"
-    type: "career"
+affiliateKeys: ["jac", "bizreach"]
 relatedSlugs: ["why-i-left-big4", "consul-vs-jigyou", "consul-career-5patterns"]
 ---
 

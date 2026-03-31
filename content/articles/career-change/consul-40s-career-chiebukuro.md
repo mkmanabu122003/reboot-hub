@@ -8,15 +8,7 @@ updatedAt: "2026-03-31"
 author: "Kay"
 thumbnail: "/images/articles/consul-40s-career-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc", "concord"]
 relatedSlugs: ["consul-30s-career-chiebukuro", "consul-career-5patterns", "post-consul-salary-reality"]
 faqs:
   - question: "40代コンサルの転職先はどこが多い？"

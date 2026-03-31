@@ -8,15 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/consul-3year-quit.webp"
 hasPR: true
-affiliates:
-  - name: "ビズリーチ"
-    url: "https://www.bizreach.jp/"
-    description: "ハイクラス転職プラットフォーム"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル業界特化エージェント"
-    type: "career"
+affiliateKeys: ["bizreach", "axc", "concord"]
 relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-agent-recommendation"]
 ---
 

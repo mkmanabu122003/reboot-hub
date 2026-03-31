@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/consul-employee-vs-freelance-income.webp"
 hasPR: true
-affiliates:
-  - name: "フリーコンサルタント.jp"
-    url: "https://www.freeconsultant.jp/"
-    description: "フリーランスコンサルマッチング"
-    type: "freelance"
+affiliateKeys: ["freeconsultant"]
 relatedSlugs: ["freelance-consul-income-reality", "freelance-consul-first-6months", "freelance-first-year"]
 faqs:
   - question: "フリーランスコンサルの手取りは会社員より多い？"

@@ -8,11 +8,7 @@ updatedAt: "2026-03-30"
 author: "Kay"
 thumbnail: "/images/articles/freelance-consul-agent-comparison.webp"
 hasPR: true
-affiliates:
-  - name: "フリーコンサルタント.jp"
-    url: "https://www.freeconsultant.jp/"
-    description: "フリーランスコンサルマッチング"
-    type: "freelance"
+affiliateKeys: ["freeconsultant"]
 relatedSlugs: ["freelance-consul-income-reality", "freelance-consul-get-projects", "consul-employee-vs-freelance-income"]
 faqs:
   - question: "フリーランスコンサル向けエージェントは何社登録すべき？"

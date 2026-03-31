@@ -8,11 +8,7 @@ updatedAt: "2026-03-26"
 author: "Kay"
 thumbnail: "/images/articles/consul-career-5patterns.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
+affiliateKeys: ["jac", "concord"]
 relatedSlugs: ["freelance-consul-agent-comparison", "consul-to-startup", "post-consul-salary-reality"]
 ---
 

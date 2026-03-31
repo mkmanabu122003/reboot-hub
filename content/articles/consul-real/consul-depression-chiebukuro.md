@@ -8,21 +8,19 @@ updatedAt: "2026-04-02"
 author: "Kay"
 thumbnail: "/images/articles/consul-depression-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-career-5patterns", "consul-agent-top5", "consul-routine-burnout", "consul-quit-chiebukuro", "consul-cant-keep-up-chiebukuro", "consul-not-suited-chiebukuro"]
 faqs:
   - question: "コンサルでうつになる人は多い？"
     answer: "正確な統計はありませんが、高プレッシャー環境のためメンタル不調を経験する人は少なくありません。早期の相談が重要です。"
   - question: "コンサルでメンタル不調になったらどうすべき？"
     answer: "まず産業医やEAP（従業員支援プログラム）に相談してください。休職制度もあります。転職は健康回復後に検討しましょう。"
+  - question: "コンサルの休職期間はどのくらいが一般的？"
+    answer: "Big4では3〜6ヶ月の休職が多く、最大1年程度取得できるケースもあります。復職後の配置転換も可能です。"
+  - question: "コンサルを辞めずにメンタルを改善する方法はある？"
+    answer: "プロジェクト変更の相談、カウンセラー（上司）への異動希望、社内EAP活用が現実的な選択肢です。"
+  - question: "うつで退職した場合、転職活動に不利になる？"
+    answer: "休職・退職理由を正直に伝える必要はありません。前向きなキャリアチェンジの文脈で説明すれば問題ありません。"
 ---
 
 「コンサル うつ 知恵袋」で検索してこの記事にたどり着いた方へ。今まさに心身の限界を感じているなら、まず以下の相談窓口を知っておいてほしい。

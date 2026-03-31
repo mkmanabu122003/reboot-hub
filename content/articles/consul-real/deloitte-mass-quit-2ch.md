@@ -8,21 +8,19 @@ updatedAt: "2026-03-31"
 author: "Kay"
 thumbnail: "/images/articles/deloitte-mass-quit-2ch.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-career-5patterns", "big4-assign-gacha", "consul-agent-top5", "deloitte-quit-chiebukuro", "deloitte-salary-chiebukuro"]
 faqs:
   - question: "デロイトの大量退職は本当？"
     answer: "2023-2024年の組織調整期に離職率が上昇したのは事実ですが、2chで語られるほど壊滅的ではありません。"
   - question: "デロイトで辞めるのはどんな人？"
     answer: "アサインに不満がある人、昇進が見えない人、明確なキャリアビジョンを持って動く人の3パターンが多いです。"
+  - question: "デロイトの離職率は他のBig4と比べて高い？"
+    answer: "コンサル業界全体で年間15〜20%の離職は通常範囲です。DTCが特別に高いわけではなく、急拡大の調整局面が重なった結果です。"
+  - question: "デロイトで残る人の特徴は？"
+    answer: "特定領域の専門性がある人、クライアントから指名される人、社内ネットワークが広い人が残りやすいです。"
+  - question: "デロイトでPIPを受けたらどうなる？"
+    answer: "業績改善プランに沿って一定期間の改善が求められます。改善が見られない場合は退職勧奨につながるケースがあります。"
 ---
 
 「デロイト 大量退職」で検索すると、2ch（5ch）のスレッドが大量にヒットする。「DTCから人が流出している」「プロジェクト崩壊」「退職者が止まらない」。不穏な書き込みが並んでいる。

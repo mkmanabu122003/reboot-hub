@@ -8,15 +8,7 @@ updatedAt: "2026-03-22"
 author: "Kay"
 thumbnail: "/images/articles/deloitte-quit-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-vs-jigyou", "deloitte-mass-quit-2ch", "deloitte-salary-chiebukuro"]
 faqs:
   - question: "デロイトを辞めたい人はどのくらいいる？"
@@ -25,6 +17,10 @@ faqs:
     answer: "事業会社の経営企画・DX推進、スタートアップCxO、フリーランスコンサル、他ファームへの転職が主なパターンです。"
   - question: "デロイトを辞めるベストタイミングは？"
     answer: "プロモーション直後、プロジェクトの切れ目、ボーナス支給後の3つが一般的に推奨されます。"
+  - question: "デロイトは何年で辞める人が多い？"
+    answer: "2〜4年目での退職が最も多い印象です。マネージャー昇格前後も一つの転機になりやすいです。"
+  - question: "デロイトを辞めて後悔する人はいる？"
+    answer: "転職先が明確でないまま辞めた人は後悔しやすいです。市場価値を確認してから退職判断するのが鉄則です。"
 ---
 
 「デロイト 辞めたい」で検索して、この記事にたどり着いたあなたへ。

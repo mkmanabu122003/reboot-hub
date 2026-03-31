@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/freelance-consul-income-reality.webp"
 hasPR: true
-affiliates:
-  - name: "フリーコンサルタント.jp"
-    url: "https://www.freeconsultant.jp/"
-    description: "フリーランスコンサルマッチング"
-    type: "freelance"
+affiliateKeys: ["freeconsultant"]
 relatedSlugs: ["freelance-consul-first-6months", "consul-employee-vs-freelance-income", "freelance-first-year"]
 faqs:
   - question: "フリーランスITコンサルの平均単価はいくら？"

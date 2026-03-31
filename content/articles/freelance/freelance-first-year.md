@@ -8,11 +8,7 @@ updatedAt: "2026-03-28"
 author: "Kay"
 thumbnail: "/images/articles/freelance-first-year.webp"
 hasPR: true
-affiliates:
-  - name: "フリーコンサルタント.jp"
-    url: "https://www.freeconsultant.jp/"
-    description: "フリーランスコンサルマッチング"
-    type: "freelance"
+affiliateKeys: ["freeconsultant"]
 relatedSlugs: ["why-i-left-big4", "freelance-full-record", "consul-ai-market-value", "freelance-consul-salary-chiebukuro"]
 faqs:
   - question: "フリーランスコンサルの初年度の年収はどのくらい？"
@@ -21,6 +17,10 @@ faqs:
     answer: "生活防衛資金6ヶ月分の確保、知人ネットワークの棚卸し、開業届と青色申告承認申請書の提出の3つが最優先です。"
   - question: "フリーランスコンサルの案件はどうやって見つける？"
     answer: "最初の案件はほぼ100%知人経由です。安定してきたらフリーコンサル専門のマッチングサービスやエージェントを併用すると案件の幅が広がります。"
+  - question: "フリーランスコンサルに必要な貯蓄はいくら？"
+    answer: "最低6ヶ月分の生活費（約300万円）が目安です。焦って安い案件を受けずに済む精神的余裕が重要です。"
+  - question: "フリーランス1年目で失敗しやすいことは？"
+    answer: "単価を安く設定しすぎる、案件を詰め込みすぎる、確定申告の準備不足の3つが典型的な失敗パターンです。"
 ---
 
 ## 月収50万円からのスタート — フリーランス1年目のリアル

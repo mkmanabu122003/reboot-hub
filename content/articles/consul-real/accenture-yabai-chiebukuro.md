@@ -8,15 +8,7 @@ updatedAt: "2026-03-23"
 author: "Kay"
 thumbnail: "/images/articles/accenture-yabai-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-career-5patterns", "consul-3year-quit", "why-i-left-big4"]
 faqs:
   - question: "アクセンチュアは本当に激務？"
@@ -25,6 +17,10 @@ faqs:
     answer: "採用数は多いですが、ケース面接とビヘイビアル面接が課されるため、準備不足では落ちます。"
   - question: "アクセンチュアとBig4の違いは？"
     answer: "アクセンチュアはテクノロジーの実装まで行う案件が多く、Big4は主にアドバイザリー寄りの文化です。"
+  - question: "アクセンチュアの離職率はどのくらい？"
+    answer: "公式発表はありませんが、業界平均と同程度の年15〜20%前後と推定されます。部門による差が大きいです。"
+  - question: "アクセンチュアから転職するならどこが有利？"
+    answer: "IT・DX系の事業会社やスタートアップのCTO補佐ポジションが多く、テクノロジー経験が高く評価されます。"
 ---
 
 「アクセンチュア やばい」で検索すると、知恵袋や5chに大量の投稿が出てくる。「激務すぎてやばい」「誰でも受かるからやばい」「使い捨てだからやばい」。どれも不安を煽る内容ばかりだ。

@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/big4-assign-gacha.webp"
 hasPR: true
-affiliates:
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル業界特化エージェント"
-    type: "career"
+affiliateKeys: ["axc"]
 relatedSlugs: ["why-i-left-big4", "consul-3year-quit", "consul-routine-burnout", "consul-no-assignment-2ch", "big4-which-best-chiebukuro", "consul-quit-chiebukuro"]
 ---
 

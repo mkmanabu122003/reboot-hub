@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/freelance-consul-first-6months.webp"
 hasPR: true
-affiliates:
-  - name: "フリーコンサルタント.jp"
-    url: "https://www.freeconsultant.jp/"
-    description: "フリーランスコンサルマッチング"
-    type: "freelance"
+affiliateKeys: ["freeconsultant"]
 relatedSlugs: ["post-consul-no-brand", "freelance-consul-income-reality", "freelance-first-year"]
 faqs:
   - question: "コンサルから独立するのに最低限必要な貯金額は？"

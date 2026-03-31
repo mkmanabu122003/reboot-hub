@@ -8,21 +8,19 @@ updatedAt: "2026-04-07"
 author: "Kay"
 thumbnail: "/images/articles/consul-salary-low-chiebukuro.webp"
 hasPR: true
-affiliates:
-  - name: "MyVision"
-    url: "https://my-vision.co.jp/"
-    description: "コンサル業界特化型転職エージェント"
-    type: "career"
-  - name: "アクシスコンサルティング"
-    url: "https://www.axc.ne.jp/"
-    description: "コンサル転職支援の豊富な実績"
-    type: "career"
+affiliateKeys: ["myvision", "axc"]
 relatedSlugs: ["consul-employee-vs-freelance-income", "consul-career-5patterns", "consul-agent-top5", "kpmg-salary-chiebukuro", "deloitte-salary-chiebukuro", "accenture-salary-chiebukuro"]
 faqs:
   - question: "コンサルの年収は意外と低いの？"
     answer: "額面は高いですが、長時間労働を時給換算すると一般企業と変わらないケースもあります。手取りベースでの比較が重要です。"
   - question: "コンサルの手取りはいくら？"
     answer: "年収800万円で手取り約590-620万円、1,200万円で約850万円程度が目安です。税金・社会保険の負担は大きいです。"
+  - question: "コンサルの時給換算はいくら？"
+    answer: "月250時間稼働で年収900万円の場合、時給は約3,000円程度です。労働時間を考慮すると一般企業と大差ないケースもあります。"
+  - question: "戦略ファームと総合ファームの年収差は？"
+    answer: "同じ職位で200〜400万円の差があります。知恵袋の高年収情報はMBB（戦略ファーム）の数字であることが多いです。"
+  - question: "コンサルの年収に不満がある場合の選択肢は？"
+    answer: "フリーランス転向が有力です。Big4マネージャーが独立すると月単価150〜200万円が相場で、年収1.5〜2倍も可能です。"
 ---
 
 「コンサル 年収 低い」「コンサル 年収 思ったほど高くない」。

@@ -8,11 +8,7 @@ updatedAt: "2026-03-21"
 author: "Kay"
 thumbnail: "/images/articles/it-consul-to-se-career-path.webp"
 hasPR: true
-affiliates:
-  - name: "JACリクルートメント"
-    url: "https://www.jac-recruitment.jp/"
-    description: "ハイクラス×コンサル特化"
-    type: "career"
+affiliateKeys: ["jac"]
 relatedSlugs: ["it-consul-vs-se-difference", "consul-3year-quit", "consul-vs-jigyou"]
 ---
 
