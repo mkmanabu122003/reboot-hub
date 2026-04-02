@@ -26,13 +26,28 @@ if (!fs.existsSync(SERVICE_ACCOUNT_PATH) && process.env.GOOGLE_SERVICE_ACCOUNT_J
 // ─── URL Collection ───
 
 function getUrlsFromSitemap() {
-  const sitemapPath = path.join(PROJECT_ROOT, 'out', 'sitemap.xml');
-  if (!fs.existsSync(sitemapPath)) {
-    console.error('sitemap.xml not found. Run `npm run build` first.');
+  // Support split sitemaps (out/sitemap/*.xml) and single sitemap (out/sitemap.xml)
+  const sitemapDir = path.join(PROJECT_ROOT, 'out', 'sitemap');
+  const singleSitemap = path.join(PROJECT_ROOT, 'out', 'sitemap.xml');
+
+  let urls = [];
+
+  if (fs.existsSync(sitemapDir)) {
+    const files = fs.readdirSync(sitemapDir).filter((f) => f.endsWith('.xml'));
+    for (const file of files) {
+      const xml = fs.readFileSync(path.join(sitemapDir, file), 'utf-8');
+      const fileUrls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
+      urls.push(...fileUrls);
+    }
+    console.log(`  ℹ️  Loaded ${urls.length} URLs from ${files.length} split sitemaps`);
+  } else if (fs.existsSync(singleSitemap)) {
+    const xml = fs.readFileSync(singleSitemap, 'utf-8');
+    urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
+  } else {
+    console.error('No sitemap found. Run `npm run build` first.');
     process.exit(1);
   }
-  const xml = fs.readFileSync(sitemapPath, 'utf-8');
-  const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
+
   return urls;
 }
 

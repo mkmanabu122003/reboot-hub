@@ -206,4 +206,4 @@ relatedSlugs: ["consul-career-5patterns", "freelance-first-year", "consul-agent-
 
 迷っているなら、まずは3ヶ月アクションプランの「月1」から始めてほしい。辞める理由を10個書き出すだけで、自分の本音が見えてくるはずだ。
 
-辞めた後の具体的なキャリアパスは[辞めた後のキャリア5パターン](/career-change/consul-career-5patterns/)で整理している。フリーランスという選択肢に興味がある人は[フリーランス1年目のリアル](/freelance/freelance-first-year/)を、転職エージェントの選び方は[コンサル向け転職エージェントの選び方](/career-change/consul-agent-recommendation/)を参考にしてほしい。
+辞めた後の具体的なキャリアパスは[辞めた後のキャリア5パターン](/career-change/consul-career-5patterns/)で整理している。フリーランスという選択肢に興味がある人は[フリーランス1年目のリアル](/freelance/freelance-first-year/)を、転職エージェントの選び方は[コンサル向け転職エージェントの選び方](/career-change/consul-agent-recommendation/)を参考にしてほしい。「ついていけない」と感じている人は[知恵袋の声まとめ](/career-change/consul-cant-keep-up-chiebukuro/)も読んでみてほしい。
